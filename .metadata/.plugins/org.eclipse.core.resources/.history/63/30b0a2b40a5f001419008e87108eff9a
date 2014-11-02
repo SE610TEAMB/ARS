@@ -1,0 +1,75 @@
+package AGV_subsystems
+public
+with AGV_runtime;
+	system mission_processing
+	features
+		radar_in : in data port;
+		GPS_in : in data port;
+		mission_data_amc : in data port;
+		battery_in : in data port;
+		mission_results_amc : out data port;
+		vehicle_state_amc : out data port;
+		motor_feedback : in data port;
+		mission_data_arr : out data port;
+		mission_results_arr : in data port;
+		vehicle_state_arr : in data port;
+		door_feedback : in data port;
+		weight_in : in data port;
+		mission_control_amc : in event port;
+		motor_signal : out event port;
+		mission_control_arr : out event port;
+		door_signal : out event port;
+	flows
+		new_flow_spec : flow path mission_control_amc -> mission_control_arr;
+	end mission_processing;
+
+	system implementation mission_processing.impl
+	subcomponents
+		motor_handler : process AGV_runtime::actuator_handler.motor;
+		AGV_controller : process AGV_runtime::controller.impl;
+		battery_handler : process AGV_runtime::sensor_handler.battery;
+		GPS_handler : process AGV_runtime::sensor_handler.GPS;
+		radar_handler : process AGV_runtime::sensor_handler.radar;
+		AGV_CPU : processor;
+		AGV_memory : memory;
+		AGV_bus : bus;
+		mission_decoder : process AGV_runtime::mission_decoder.impl;
+		mission_encoder : process AGV_runtime::mission_encoder.impl;
+		new_subcomponent : process AGV_runtime::result_encoder.impl;
+		new_subcomponent2 : process AGV_runtime::result_decoder.impl;
+		new_subcomponent3 : process AGV_runtime::actuator_handler.door;
+		new_subcomponent4 : process AGV_runtime::sensor_handler.weight;
+	connections
+		new_connection : port radar_in -> radar_handler.sensor_data;
+		new_connection2 : port GPS_in -> GPS_handler.sensor_data;
+		new_connection3 : port battery_in -> battery_handler.sensor_data;
+		new_connection4 : port motor_feedback -> motor_handler.actuator_feedback;
+		new_connection5 : port motor_handler.actuator_signal -> motor_signal;
+		new_connection14 : port radar_handler.data_out -> AGV_controller.radar_in;
+		new_connection15 : port GPS_handler.data_out -> AGV_controller.GPS_in;
+		new_connection16 : port battery_handler.data_out -> AGV_controller.battery_in;
+		new_connection17 : port AGV_controller.motor_out -> motor_handler.cmd;
+		new_connection6 : port mission_data_amc -> mission_decoder.mission_data_in;
+		new_connection7 : port mission_decoder.mission_data_out -> AGV_controller.mission_data_amc;
+		new_connection8 : port mission_control_amc -> mission_decoder.mission_control_in;
+		new_connection9 : port mission_decoder.mission_control_out -> AGV_controller.agv_control;
+		new_connection10 : port AGV_controller.results_amc -> new_subcomponent.results;
+		new_connection11 : port new_subcomponent.mission_results -> mission_results_amc;
+		new_connection12 : port new_subcomponent.vehicle_state -> vehicle_state_amc;
+		new_connection13 : port AGV_controller.mission_data_arr -> mission_encoder.mission_data_in;
+		new_connection18 : port AGV_controller.arr_control -> mission_encoder.mission_control_in;
+		new_connection19 : port mission_encoder.mission_data_out -> mission_data_arr;
+		new_connection20 : port mission_encoder.mission_control_out -> mission_control_arr;
+		new_connection21 : port mission_results_arr -> new_subcomponent2.mission_results;
+		new_connection22 : port vehicle_state_arr -> new_subcomponent2.vehicle_state;
+		new_connection23 : port new_subcomponent2.results -> AGV_controller.results_arr;
+		new_connection24 : port motor_handler.feedback -> AGV_controller.motor_feedback;
+		new_connection25 : port AGV_controller.door_out -> new_subcomponent3.cmd;
+		new_connection26 : port new_subcomponent3.feedback -> AGV_controller.door_feedback;
+		new_connection27 : port door_feedback -> new_subcomponent3.actuator_feedback;
+		new_connection28 : port new_subcomponent3.actuator_signal -> door_signal;
+		new_connection29 : port weight_in -> new_subcomponent4.sensor_data;
+		new_connection30 : port new_subcomponent4.data_out -> AGV_controller.weight_in;
+	end mission_processing.impl;
+
+end AGV_subsystems;

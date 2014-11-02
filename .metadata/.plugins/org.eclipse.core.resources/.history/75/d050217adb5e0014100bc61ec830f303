@@ -1,0 +1,153 @@
+package systems
+public
+with devices;
+with buses;
+with AGV_subsystems;
+with ARR_subsystems;
+with AMC_subsystems;
+	system AAVs
+	features
+		control_and_acknowledge : in out event port;
+		mission_in : requires bus access;
+		target_info_out : provides bus access;
+	end AAVs;
+
+	system implementation AAVs.rotaryWing
+	end AAVs.rotaryWing;
+
+	system AGVs
+features
+		AGV_AMC : feature group;
+		AGV_ARRs : feature group;
+	end AGVs;
+
+	system implementation AGVs.impl
+	subcomponents
+		AGV_GPS : device devices::GPS.impl;
+	AGV_mission_processing : system AGV_subsystems::mission_processing.impl;
+	radar : device devices::Sensor.Radar;
+		battery : device devices::battary.impl;
+	motor : device devices::Controller.motor;
+		ACM_AGV : device devices::Transceiver_collect.impl;
+		AGV_ARR : device devices::Transceiver_assign.impl;
+		door : device devices::Controller.door;
+	connections
+		position : port AGV_GPS.position_info -> AGV_mission_processing.GPS_in;
+		new_connection6 : port radar.data_out -> AGV_mission_processing.radar_in;
+		new_connection7 : port battery.battary_info -> AGV_mission_processing.battery_in;
+	new_connection8 : port motor.feedback_out -> AGV_mission_processing.motor_feedback;
+	new_connection9 : port AGV_mission_processing.motor_signal -> motor.control_in;
+	new_connection : feature group ACM_AGV.input_output -> AGV_AMC;
+	new_connection2 : feature group AGV_AMC -> ACM_AGV.input_output;
+	new_connection3 : port AGV_mission_processing.vehicle_state_amc -> ACM_AGV.vehicle_state_amc;
+	new_connection4 : port AGV_mission_processing.mission_results_amc -> ACM_AGV.mission_results_amc;
+	new_connection5 : port ACM_AGV.mission_control_acm -> AGV_mission_processing.mission_control_amc;
+	new_connection10 : port ACM_AGV.mission_data_amc -> AGV_mission_processing.mission_data_amc;
+	new_connection11 : feature AGV_ARRs -> AGV_ARR.input_output;
+	new_connection12 : feature AGV_ARR.input_output -> AGV_ARRs;
+	new_connection13 : feature AGV_mission_processing.mission_data_arr -> AGV_ARR.mission_data_arr;
+	new_connection14 : feature AGV_mission_processing.mission_control_arr -> AGV_ARR.mission_control_arr;
+		new_connection15 : port AGV_ARR.vehicle_state_arr -> AGV_mission_processing.vehicle_state_arr;
+		new_connection16 : port AGV_ARR.mission_results_arr -> AGV_mission_processing.mission_results_arr;
+		new_connection17 : port door.feedback_out -> AGV_mission_processing.door_feedback;
+		new_connection18 : port AGV_mission_processing.door_signal -> door.control_in;
+	end AGVs.impl;
+
+	system ARRs_G
+	features
+		ARR_AGV : feature group;
+	end ARRs_G;
+
+	system ACCs
+	end ACCs;
+
+	system implementation ARRs_G.impl
+		subcomponents
+		ARR_GPS : device devices::GPS.impl;
+
+	camera : device devices::Sensor.camera;
+		ARRs_G_job_processing : system ARR_subsystems::mission_processing.impl;
+		microphone : device devices::Sensor.microphone;
+		battery : device devices::battary.impl;
+		arm : device devices::Controller.arm;
+		motor : device devices::Controller.motor;
+	ARR_transceiver : device devices::Transceiver_collect.impl;
+	radar : device devices::Sensor.Radar;
+connections
+	new_connection11 : port ARR_GPS.position_info -> ARRs_G_job_processing.GPS_in;
+
+		battery_info : port battery.battary_info -> ARRs_G_job_processing.battery_in;
+		new_connection5 : port ARRs_G_job_processing.motor_signal -> motor.control_in;
+		new_connection6 : port motor.feedback_out -> ARRs_G_job_processing.motor_feedback;
+		new_connection7 : port arm.feedback_out -> ARRs_G_job_processing.arm_feedback;
+		new_connection8 : port ARRs_G_job_processing.arm_singal -> arm.control_in;
+		new_connection9 : port camera.data_out -> ARRs_G_job_processing.camera_in;
+		new_connection10 : port microphone.data_out -> ARRs_G_job_processing.microphone_in;
+	new_connection : port ARR_transceiver.mission_control_acm -> ARRs_G_job_processing.mission_control_agv;
+	new_connection2 : port ARR_transceiver.mission_data_amc -> ARRs_G_job_processing.mission_data_agv;
+	new_connection3 : port ARRs_G_job_processing.mission_results_agv -> ARR_transceiver.mission_results_amc;
+	new_connection4 : port ARRs_G_job_processing.vehicle_state_agv -> ARR_transceiver.vehicle_state_amc;
+		new_connection12 : port radar.data_out -> ARRs_G_job_processing.radar_in;
+		new_connection13 : feature group ARR_transceiver.input_output -> ARR_AGV;
+		new_connection14 : feature group ARR_AGV -> ARR_transceiver.input_output;
+	end ARRs_G.impl;
+
+	system implementation ACCs.impl
+	end ACCs.impl;
+
+	system AMC
+	features
+		commands_in : in data port;
+		enable_in : in event port;
+		display_out : out event data port;
+		AMC_AGVs : feature group;
+		AMC_AARs : feature group;
+		AMC_ACCs : feature group;
+	end AMC;
+
+	system implementation AMC.impl
+	subcomponents
+		new_subcomponent : system AMC_subsystems::Input_AGVs.impl;
+	new_subcomponent2 : system AMC_subsystems::Output_AGVs.impl;
+connections
+	new_connection : feature new_subcomponent2.Mission_Data -> AMC_AGVs;
+	new_connection2 : feature new_subcomponent2.Mission_Control -> AMC_AGVs;
+	new_connection3 : feature AMC_AGVs -> new_subcomponent.Navigation_info;
+	new_connection4 : feature AMC_AGVs -> new_subcomponent.Vehicle_state;
+	new_connection5 : feature AMC_AGVs -> new_subcomponent.Mission_data;
+end AMC.impl;
+
+	system implementation AAVs.fixedWing
+	end AAVs.fixedWing;
+
+	system ARS
+	features
+		commands_in : in data port;
+		enable_in : in event port;
+		display_out : out event data port;
+	end ARS;
+
+	system implementation ARS.impl
+	subcomponents
+		AMC_System : system AMC.impl;
+		AGVs_System_001 : system AGVs.impl;
+		ARR_system_001 : system ARRs_G.impl;
+		AMC_Wireless_Network : bus;
+		AGV_Wireless_Network : bus;
+	connections
+		enable : port enable_in -> AMC_System.enable_in;
+		commands : port commands_in -> AMC_System.commands_in;
+		results : port AMC_System.display_out -> display_out;
+	new_connection : feature group AMC_System.AMC_AGVs -> AGVs_System_001.AGV_AMC;
+	new_connection2 : feature group AGVs_System_001.AGV_AMC -> AMC_System.AMC_AGVs;
+	new_connection3 : feature group AGVs_System_001.AGV_ARRs -> ARR_system_001.ARR_AGV;
+	new_connection4 : feature group ARR_system_001.ARR_AGV -> AGVs_System_001.AGV_ARRs;
+end ARS.impl;
+
+	system ARRs_C
+	end ARRs_C;
+
+	system implementation ARRs_C.impl
+	end ARRs_C.impl;
+
+end systems;

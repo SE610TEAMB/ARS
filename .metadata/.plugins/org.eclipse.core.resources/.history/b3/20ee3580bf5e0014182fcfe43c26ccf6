@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="ASCII"?>
+<pi:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" visible="true" gridUnit="10" diagramTypeId="AADL Package" name="devices" snapToGrid="true" version="0.10.0">
+  <properties key="independentObject" value="package devices"/>
+  <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.1" foreground="//@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::Display"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="100" height="50" x="90" y="40" style="//@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100"/>
+        <points x="100" y="50"/>
+        <points x="93" y="43"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="93" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="92" height="42" x="4" y="4" style="//@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points x="100"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points x="93" y="43"/>
+        <points x="100" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.0">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::Display"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="100" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Display"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier devices::Display.impl"/>
+    <properties key="is_layed_out" value="true"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="100" height="50" x="90" y="140" style="//@styles.0/@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100"/>
+        <points x="100" y="50"/>
+        <points x="93" y="43"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="93" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="92" height="42" x="4" y="4" style="//@styles.0/@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="100"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="93" y="43"/>
+        <points x="100" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.0">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::Display.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="100" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Display.impl"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::DataInput"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="100" height="50" x="308" y="40" style="//@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100"/>
+        <points x="100" y="50"/>
+        <points x="93" y="43"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="93" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="92" height="42" x="4" y="4" style="//@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points x="100"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points x="93" y="43"/>
+        <points x="100" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.1">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::DataInput"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="100" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="DataInput"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::DataInput.keyboard"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="136" height="50" x="290" y="140" style="//@styles.0/@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="136"/>
+        <points x="136" y="50"/>
+        <points x="129" y="43"/>
+        <points x="129" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="136" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="129" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="128" height="42" x="4" y="4" style="//@styles.0/@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="136"/>
+        <points x="129" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="129" y="43"/>
+        <points x="136" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.1">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::DataInput.keyboard"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="136" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="DataInput.keyboard"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::Switch"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="100" height="50" x="547" y="40" style="//@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100"/>
+        <points x="100" y="50"/>
+        <points x="93" y="43"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="93" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="92" height="42" x="4" y="4" style="//@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points x="100"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points x="93" y="43"/>
+        <points x="100" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.2">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::Switch"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="100" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Switch"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::Switch.enable"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="107" height="50" x="543" y="140" style="//@styles.0/@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="107"/>
+        <points x="107" y="50"/>
+        <points x="100" y="43"/>
+        <points x="100" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="107" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="100" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="99" height="42" x="4" y="4" style="//@styles.0/@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="107"/>
+        <points x="100" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="100" y="43"/>
+        <points x="107" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.2">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::Switch.enable"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="107" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Switch.enable"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::GPS"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="100" height="50" x="90" y="250" style="//@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100"/>
+        <points x="100" y="50"/>
+        <points x="93" y="43"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="93" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="92" height="42" x="4" y="4" style="//@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points x="100"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points x="93" y="43"/>
+        <points x="100" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.3">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::GPS"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="100" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="GPS"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier devices::GPS.impl"/>
+    <properties key="is_layed_out" value="true"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="100" height="50" x="90" y="360" style="//@styles.0/@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100"/>
+        <points x="100" y="50"/>
+        <points x="93" y="43"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="93" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="92" height="42" x="4" y="4" style="//@styles.0/@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="100"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="93" y="43"/>
+        <points x="100" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.3">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::GPS.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="100" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="GPS.impl"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::Sensor"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="100" height="50" x="410" y="250" style="//@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100"/>
+        <points x="100" y="50"/>
+        <points x="93" y="43"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="93" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="92" height="42" x="4" y="4" style="//@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points x="100"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points x="93" y="43"/>
+        <points x="100" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.4 //@connections.5 //@connections.7">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::Sensor"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="100" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Sensor"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::Sensor.camera"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="114" height="50" x="230" y="360" style="//@styles.0/@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="114"/>
+        <points x="114" y="50"/>
+        <points x="107" y="43"/>
+        <points x="107" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="114" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="107" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="106" height="42" x="4" y="4" style="//@styles.0/@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="114"/>
+        <points x="107" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="107" y="43"/>
+        <points x="114" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.4">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::Sensor.camera"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="114" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Sensor.camera"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::Sensor.microphone"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="140" height="50" x="390" y="360" style="//@styles.0/@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="140"/>
+        <points x="140" y="50"/>
+        <points x="133" y="43"/>
+        <points x="133" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="140" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="133" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="132" height="42" x="4" y="4" style="//@styles.0/@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="140"/>
+        <points x="133" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="133" y="43"/>
+        <points x="140" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.5">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::Sensor.microphone"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="140" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Sensor.microphone"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::Controller"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="100" height="50" x="90" y="470" style="//@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100"/>
+        <points x="100" y="50"/>
+        <points x="93" y="43"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="93" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="92" height="42" x="4" y="4" style="//@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points x="100"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points x="93" y="43"/>
+        <points x="100" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.8 //@connections.9">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::Controller"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="100" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Controller"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::Controller.motor"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="123" height="50" x="20" y="560" style="//@styles.0/@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="123"/>
+        <points x="123" y="50"/>
+        <points x="116" y="43"/>
+        <points x="116" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="123" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="116" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="115" height="42" x="4" y="4" style="//@styles.0/@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="123"/>
+        <points x="116" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="116" y="43"/>
+        <points x="123" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.9">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::Controller.motor"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="123" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Controller.motor"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::Controller.arm"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="111" height="50" x="189" y="560" style="//@styles.0/@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="111"/>
+        <points x="111" y="50"/>
+        <points x="104" y="43"/>
+        <points x="104" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="111" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="104" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="103" height="42" x="4" y="4" style="//@styles.0/@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="111"/>
+        <points x="104" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="104" y="43"/>
+        <points x="111" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.8">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::Controller.arm"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="111" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Controller.arm"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::Battary"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="100" height="50" x="481" y="470" style="//@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100"/>
+        <points x="100" y="50"/>
+        <points x="93" y="43"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="93" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="92" height="42" x="4" y="4" style="//@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points x="100"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points x="93" y="43"/>
+        <points x="100" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.6 //@connections.13">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::Battary"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="100" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Battary"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::Battary.impl"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="100" height="50" x="410" y="560" style="//@styles.0/@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100"/>
+        <points x="100" y="50"/>
+        <points x="93" y="43"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="93" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="92" height="42" x="4" y="4" style="//@styles.0/@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="100"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="93" y="43"/>
+        <points x="100" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.6">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::Battary.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="100" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Battary.impl"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::Sensor.Radar"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="104" height="50" x="580" y="360" style="//@styles.0/@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="104"/>
+        <points x="104" y="50"/>
+        <points x="97" y="43"/>
+        <points x="97" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="104" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="97" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="96" height="42" x="4" y="4" style="//@styles.0/@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="104"/>
+        <points x="97" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="97" y="43"/>
+        <points x="104" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.7">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::Sensor.Radar"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="104" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Sensor.Radar"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::Transceiver_collect"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="138" height="50" x="780" y="40" style="//@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="138"/>
+        <points x="138" y="50"/>
+        <points x="131" y="43"/>
+        <points x="131" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="138" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="131" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="130" height="42" x="4" y="4" style="//@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points x="138"/>
+        <points x="131" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points x="131" y="43"/>
+        <points x="138" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.10">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::Transceiver_collect"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="138" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Transceiver_collect"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::Transceiver_collect.impl"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="165" height="50" x="766" y="140" style="//@styles.0/@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="165"/>
+        <points x="165" y="50"/>
+        <points x="158" y="43"/>
+        <points x="158" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="165" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="158" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="157" height="42" x="4" y="4" style="//@styles.0/@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="165"/>
+        <points x="158" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="158" y="43"/>
+        <points x="165" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.10">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::Transceiver_collect.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="165" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Transceiver_collect.impl"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::Transceiver_assign"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="139" height="50" x="779" y="250" style="//@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="139"/>
+        <points x="139" y="50"/>
+        <points x="132" y="43"/>
+        <points x="132" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="139" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="132" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="131" height="42" x="4" y="4" style="//@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points x="139"/>
+        <points x="132" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points x="132" y="43"/>
+        <points x="139" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.11">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::Transceiver_assign"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="139" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Transceiver_assign"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier devices::Transceiver_assign.impl"/>
+    <properties key="is_layed_out" value="true"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="166" height="50" x="766" y="370" style="//@styles.0/@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="166"/>
+        <points x="166" y="50"/>
+        <points x="159" y="43"/>
+        <points x="159" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="166" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="159" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="158" height="42" x="4" y="4" style="//@styles.0/@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="166"/>
+        <points x="159" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="159" y="43"/>
+        <points x="166" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.11">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::Transceiver_assign.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="166" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Transceiver_assign.impl"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::Door"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="100" height="50" x="798" y="470" style="//@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100"/>
+        <points x="100" y="50"/>
+        <points x="93" y="43"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="93" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="92" height="42" x="4" y="4" style="//@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points x="100"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points x="93" y="43"/>
+        <points x="100" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.12">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::Door"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="100" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Door"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::Door.impl"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="100" height="50" x="798" y="560" style="//@styles.0/@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100"/>
+        <points x="100" y="50"/>
+        <points x="93" y="43"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="100" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="93" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="92" height="42" x="4" y="4" style="//@styles.0/@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="100"/>
+        <points x="93" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="93" y="43"/>
+        <points x="100" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.12">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::Door.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="100" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Door.impl"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier devices::Battary.backup"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="111" height="50" x="546" y="560" style="//@styles.0/@styles.0/@styles.0">
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="111"/>
+        <points x="111" y="50"/>
+        <points x="104" y="43"/>
+        <points x="104" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" lineVisible="false">
+        <points x="111" y="50"/>
+        <points y="50"/>
+        <points x="7" y="43"/>
+        <points x="104" y="43"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="103" height="42" x="4" y="4" style="//@styles.0/@styles.0/@styles.0"/>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points/>
+        <points x="7" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="111"/>
+        <points x="104" y="7"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points x="104" y="43"/>
+        <points x="111" y="50"/>
+      </graphicsAlgorithmChildren>
+      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.0/@styles.0">
+        <points y="50"/>
+        <points x="7" y="43"/>
+      </graphicsAlgorithmChildren>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.13">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier devices::Battary.backup"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="111" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Battary.backup"/>
+    </children>
+  </children>
+  <styles background="//@colors.1" foreground="//@colors.2" lineWidth="1" lineVisible="true" transparency="0.0" id="classifier" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED">
+    <styles lineWidth="2" lineStyle="UNSPECIFIED" id="device" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED">
+      <styles lineWidth="3" lineStyle="UNSPECIFIED" id="device-implementation" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED"/>
+    </styles>
+  </styles>
+  <styles foreground="//@colors.2" lineStyle="UNSPECIFIED" filled="false" id="label" font="//@fonts.0"/>
+  <styles background="//@colors.1" foreground="//@colors.2" lineWidth="2" lineStyle="DASH" lineVisible="true" id="implements" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED"/>
+  <styles background="//@colors.1" foreground="//@colors.2" lineWidth="2" lineVisible="true" id="generalization-arrowhead" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED"/>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.0" end="//@children.1/@anchors.0">
+    <properties key="independentObject" value="realization devices::Display.impl"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.2/@anchors.0" end="//@children.3/@anchors.0">
+    <properties key="independentObject" value="realization devices::DataInput.keyboard"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.4/@anchors.0" end="//@children.5/@anchors.0">
+    <properties key="independentObject" value="realization devices::Switch.enable"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.6/@anchors.0" end="//@children.7/@anchors.0">
+    <properties key="independentObject" value="realization devices::GPS.impl"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.8/@anchors.0" end="//@children.9/@anchors.0">
+    <properties key="independentObject" value="realization devices::sensor.camera"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.8/@anchors.0" end="//@children.10/@anchors.0">
+    <properties key="independentObject" value="realization devices::Sensor.microphone"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.14/@anchors.0" end="//@children.15/@anchors.0">
+    <properties key="independentObject" value="realization devices::battary.impl"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.8/@anchors.0" end="//@children.16/@anchors.0">
+    <properties key="independentObject" value="realization devices::Sensor.Radar"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.11/@anchors.0" end="//@children.13/@anchors.0">
+    <properties key="independentObject" value="realization devices::Controller.arm"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.11/@anchors.0" end="//@children.12/@anchors.0">
+    <properties key="independentObject" value="realization devices::Controller.motor"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.17/@anchors.0" end="//@children.18/@anchors.0">
+    <properties key="independentObject" value="realization devices::Transceiver_collect.impl"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.19/@anchors.0" end="//@children.20/@anchors.0">
+    <properties key="independentObject" value="realization devices::Transceiver_assign.impl"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.21/@anchors.0" end="//@children.22/@anchors.0">
+    <properties key="independentObject" value="realization devices::Door.impl"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.14/@anchors.0" end="//@children.23/@anchors.0">
+    <properties key="independentObject" value="realization devices::Battary.backup"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <colors red="227" green="238" blue="249"/>
+  <colors red="255" green="255" blue="255"/>
+  <colors/>
+  <fonts name="Arial" size="8" bold="true"/>
+</pi:Diagram>
