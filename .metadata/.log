@@ -1324,3 +1324,1027 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 --launcher.XXPermSize 
 
 !ENTRY org.osate.ge 1 0 2014-11-01 23:55:46.243
 !MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@6b458e7b (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+!SESSION 2014-11-05 11:10:26.355 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  --launcher.XXPermSize 64M
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 --launcher.XXPermSize 64M
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:10:37.271
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2eb6d34a (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2014-11-05 11:10:46.232
+!MESSAGE Contributor org.osate.ge.editor.AgeDiagramEditor cannot be created.
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:12:13.995
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@365fde74 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: AGV_subsystems, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:24:56.032
+!MESSAGE org.osate.ge.services.impl.DefaultAadlModificationService.modify(): Executing modification without a thread switch
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:25:11.545
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@365fde74 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: AGV_subsystems, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:25:11.936
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramModificationService$DefaultModification.updateDiagram(): Creating an editing domain
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:25:11.967
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@216a3aba (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: AGV_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:25:17.575
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@365fde74 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: AGV_subsystems, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:25:43.496
+!MESSAGE org.osate.ge.services.impl.DefaultAadlModificationService.modify(): Executing modification without a thread switch
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:25:43.515
+!MESSAGE org.osate.ge.diagrams.pkg.patterns.PackageClassifierPattern.createClassifier(): Created classifier with name: mission_processing.impl
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:25:43.707
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@365fde74 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: AGV_subsystems, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:25:47.254
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram not found.
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:25:47.254
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.createNewDiagram(): Creating diagram of type 'AADL Component Implementation' for model element 'mission_processing.impl'
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:25:47.254
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.createNewDiagram(): Creating a editing domain
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:25:47.301
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2081f1b6 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: AGV_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:26:06.375
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@275ef361 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: ARR_subsystems, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:26:09.452
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:26:09.467
+!MESSAGE org.osate.ge.diagrams.type.features.TypeUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@34523e71 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Type, name: ARR_subsystems::mission_processing, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:26:18.909
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@3849fb57 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_subsystems::mission_processing.old, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:26:45.110
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:27:07.310
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@72cec8c6 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: systems::ARRs_Ground.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:27:27.388
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:27:41.831
+!MESSAGE org.osate.ge.diagrams.type.features.TypeUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@71d898d3 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Type, name: AGV_subsystems::mission_processing, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:27:52.894
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:27:57.269
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:28:51.024
+!MESSAGE org.osate.ge.diagrams.type.features.TypeUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@61ada220 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Type, name: ARR_processes::navigation, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:29:02.890
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@ddff6a1 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_processes::navigation.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:29:08.123
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@3f5ce4f (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: complete, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:29:09.827
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:29:09.842
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@1cbec56b (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: complete::complete.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:30:01.286
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@351ae7bd (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: ARR_processes, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.eclipse.emf.workspace 2 0 2014-11-05 11:32:18.098
+!MESSAGE Invalid thread access
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4397)
+	at org.eclipse.swt.SWT.error(SWT.java:4312)
+	at org.eclipse.swt.SWT.error(SWT.java:4283)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:472)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:363)
+	at org.eclipse.swt.widgets.ToolBar.getItemCount(ToolBar.java:556)
+	at org.eclipse.jface.action.ToolBarManager.update(ToolBarManager.java:245)
+	at org.osate.ge.ui.editor.AgeDiagramBehavior$4.refresh(AgeDiagramBehavior.java:158)
+	at org.eclipse.graphiti.ui.editor.DiagramBehavior.refresh(DiagramBehavior.java:774)
+	at org.eclipse.graphiti.ui.editor.DiagramBehavior.refreshContent(DiagramBehavior.java:808)
+	at org.eclipse.graphiti.ui.internal.editor.DomainModelWorkspaceSynchronizerDelegate.handleResourceMoved(DomainModelWorkspaceSynchronizerDelegate.java:81)
+	at org.eclipse.emf.workspace.util.MovedSynchRequest.doPerform(MovedSynchRequest.java:46)
+	at org.eclipse.emf.workspace.util.SynchRequest$1.run(SynchRequest.java:58)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:328)
+	at org.eclipse.emf.workspace.util.SynchRequest.perform(SynchRequest.java:56)
+	at org.eclipse.emf.workspace.util.WorkspaceSynchronizer$ResourceSynchJob.runInWorkspace(WorkspaceSynchronizer.java:633)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.emf.workspace 2 0 2014-11-05 11:32:41.974
+!MESSAGE Invalid thread access
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4397)
+	at org.eclipse.swt.SWT.error(SWT.java:4312)
+	at org.eclipse.swt.SWT.error(SWT.java:4283)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:472)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:363)
+	at org.eclipse.swt.widgets.ToolBar.getItemCount(ToolBar.java:556)
+	at org.eclipse.jface.action.ToolBarManager.update(ToolBarManager.java:245)
+	at org.osate.ge.ui.editor.AgeDiagramBehavior$4.refresh(AgeDiagramBehavior.java:158)
+	at org.eclipse.graphiti.ui.editor.DiagramBehavior.refresh(DiagramBehavior.java:774)
+	at org.eclipse.graphiti.ui.editor.DiagramBehavior.refreshContent(DiagramBehavior.java:808)
+	at org.eclipse.graphiti.ui.internal.editor.DomainModelWorkspaceSynchronizerDelegate.handleResourceMoved(DomainModelWorkspaceSynchronizerDelegate.java:81)
+	at org.eclipse.emf.workspace.util.MovedSynchRequest.doPerform(MovedSynchRequest.java:46)
+	at org.eclipse.emf.workspace.util.SynchRequest$1.run(SynchRequest.java:58)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.runExclusive(TransactionalEditingDomainImpl.java:328)
+	at org.eclipse.emf.workspace.util.SynchRequest.perform(SynchRequest.java:56)
+	at org.eclipse.emf.workspace.util.WorkspaceSynchronizer$ResourceSynchJob.runInWorkspace(WorkspaceSynchronizer.java:633)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:32:58.210
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram not found.
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:32:58.210
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.createNewDiagram(): Creating diagram of type 'AADL Component Implementation' for model element 'state_result_handler.impl'
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:32:58.210
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.createNewDiagram(): Creating a editing domain
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:32:58.257
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@393a4d84 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_processes::state_result_handler.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:33:09.235
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@204b77a9 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: ARR_processes, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:33:21.736
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:34:10.074
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:34:10.074
+!MESSAGE org.osate.ge.diagrams.type.features.TypeUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2b96e802 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Type, name: ARR_processes::state_result_handler, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:34:24.297
+!MESSAGE org.osate.ge.services.impl.DefaultAadlModificationService.modify(): Executing modification without a thread switch
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:34:25.407
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@351ae7bd (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: ARR_processes, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:34:25.782
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramModificationService$DefaultModification.updateDiagram(): Creating an editing domain
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:34:25.797
+!MESSAGE org.osate.ge.diagrams.type.features.TypeUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2547ae86 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Type, name: ARR_processes::state_result_handler, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:34:25.876
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramModificationService$DefaultModification.updateDiagram(): Creating an editing domain
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:34:25.907
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@447e911f (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_processes::state_result_handler.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:34:25.954
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@204b77a9 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: ARR_processes, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:34:26.313
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram asynchronously - current thread is not the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:34:26.360
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@351ae7bd (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: ARR_processes, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:34:26.485
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2eb6d34a (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:35:34.895
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram not found.
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:35:34.895
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.createNewDiagram(): Creating diagram of type 'AADL Component Implementation' for model element 'actuator_handler.motor'
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:35:34.895
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.createNewDiagram(): Creating a editing domain
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:35:34.926
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@7de4f7c9 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_processes::actuator_handler.motor, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:35:49.348
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:35:49.363
+!MESSAGE org.osate.ge.diagrams.type.features.TypeUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@1357f795 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Type, name: ARR_processes::actuator_handler, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:36:04.903
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram not found.
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:36:04.919
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.createNewDiagram(): Creating diagram of type 'AADL Component Implementation' for model element 'actuator_handler.arm'
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:36:04.919
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.createNewDiagram(): Creating a editing domain
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:36:04.935
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2bbd4e2c (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_processes::actuator_handler.arm, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:36:13.558
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:36:13.558
+!MESSAGE org.osate.ge.diagrams.type.features.TypeUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@5e44548 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Type, name: ARR_processes::actuator_handler, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:42:59.957
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:43:14.844
+!MESSAGE org.osate.ge.diagrams.type.features.TypeUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@131cdb1b (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Type, name: ARR_subsystems::bus_handler, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.aadl2.modelsupport 4 0 2014-11-05 11:43:14.890
+!MESSAGE Unable to update diagram. Unable to find AADL model element associated with diagram.
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:43:26.301
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram synchronously - current thread is the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:43:26.301
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2eb6d34a (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.eclipse.graphiti.ui 4 0 2014-11-05 11:43:27.129
+!MESSAGE GFCommandStack.execute(Command) java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.osate.ge.diagrams.componentImplementation.patterns.SubcomponentPattern.refresh(SubcomponentPattern.java:293)
+	at org.osate.ge.diagrams.componentImplementation.patterns.SubcomponentPattern.update(SubcomponentPattern.java:224)
+	at org.eclipse.graphiti.pattern.UpdateFeatureForPattern.update(UpdateFeatureForPattern.java:70)
+	at org.osate.ge.services.impl.DefaultShapeCreationService.createUpdateShapesForElements(DefaultShapeCreationService.java:141)
+	at org.osate.ge.services.impl.DefaultShapeCreationService.createUpdateShapesForElements(DefaultShapeCreationService.java:58)
+	at org.osate.ge.diagrams.componentImplementation.patterns.ComponentImplementationPattern.createUpdateSubcomponents(ComponentImplementationPattern.java:150)
+	at org.osate.ge.diagrams.componentImplementation.patterns.ComponentImplementationPattern.refresh(ComponentImplementationPattern.java:131)
+	at org.osate.ge.diagrams.componentImplementation.patterns.ComponentImplementationPattern.update(ComponentImplementationPattern.java:112)
+	at org.eclipse.graphiti.pattern.UpdateFeatureForPattern.update(UpdateFeatureForPattern.java:70)
+	at org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(ComponentImplementationUpdateDiagramFeature.java:119)
+	at org.eclipse.graphiti.features.impl.AbstractUpdateFeature.execute(AbstractUpdateFeature.java:77)
+	at org.eclipse.graphiti.internal.command.GenericFeatureCommandWithContext.execute(GenericFeatureCommandWithContext.java:64)
+	at org.eclipse.graphiti.ui.internal.command.GefCommandWrapper.execute(GefCommandWrapper.java:51)
+	at org.eclipse.graphiti.ui.internal.editor.EmfOnGefCommand.execute(EmfOnGefCommand.java:54)
+	at org.eclipse.graphiti.internal.command.GFPreparableCommand2.doExecute(GFPreparableCommand2.java:37)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:135)
+	at org.eclipse.emf.workspace.EMFCommandOperation.doExecute(EMFCommandOperation.java:119)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:150)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:513)
+	at org.eclipse.emf.workspace.impl.WorkspaceCommandStackImpl.doExecute(WorkspaceCommandStackImpl.java:208)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:165)
+	at org.eclipse.graphiti.ui.internal.editor.GFWorkspaceCommandStackImpl.execute(GFWorkspaceCommandStackImpl.java:84)
+	at org.eclipse.graphiti.ui.internal.editor.GFCommandStack.execute(GFCommandStack.java:138)
+	at org.eclipse.graphiti.ui.editor.DiagramBehavior.executeFeature(DiagramBehavior.java:1084)
+	at org.eclipse.graphiti.features.impl.AbstractFeatureProvider.updateIfPossible(AbstractFeatureProvider.java:231)
+	at org.eclipse.graphiti.features.impl.AbstractFeatureProvider.updateIfPossibleAndNeeded(AbstractFeatureProvider.java:291)
+	at org.eclipse.graphiti.notification.DefaultNotificationService.updatePictogramElements(DefaultNotificationService.java:63)
+	at org.osate.ge.ui.editor.AgeDiagramBehavior$3.run(AgeDiagramBehavior.java:107)
+	at org.osate.ge.ui.editor.AgeDiagramBehavior.update(AgeDiagramBehavior.java:129)
+	at org.osate.ge.ui.editor.AgeDiagramBehavior.access$1(AgeDiagramBehavior.java:92)
+	at org.osate.ge.ui.editor.AgeDiagramBehavior$2.modelChanged(AgeDiagramBehavior.java:85)
+	at org.osate.ge.ui.xtext.ModelListener.modelChanged(ModelListener.java:79)
+	at org.osate.ge.ui.xtext.EditorListener$1.exec(EditorListener.java:64)
+	at org.osate.ge.ui.xtext.EditorListener$1.exec(EditorListener.java:1)
+	at org.eclipse.xtext.util.concurrent.AbstractReadWriteAcces.readOnly(AbstractReadWriteAcces.java:62)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.readOnly(XtextDocument.java:228)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.readOnly(XtextDocument.java:79)
+	at org.osate.ge.ui.xtext.EditorListener.partOpened(EditorListener.java:61)
+	at org.eclipse.ui.internal.WorkbenchPage$18.run(WorkbenchPage.java:4836)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.WorkbenchPage.firePartOpened(WorkbenchPage.java:4834)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart$2.handleEvent(CompatibilityPart.java:118)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:41)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:180)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:150)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4688)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:205)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:80)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:58)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.basic.impl.PartImpl.setObject(PartImpl.java:378)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:131)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:949)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:633)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:735)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:700)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:685)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1147)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:65)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:41)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:180)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:150)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4688)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:205)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:80)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:58)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:576)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:543)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:619)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:331)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1046)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3112)
+	at org.eclipse.ui.internal.WorkbenchPage.access$21(WorkbenchPage.java:3034)
+	at org.eclipse.ui.internal.WorkbenchPage$8.run(WorkbenchPage.java:3016)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3012)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2976)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2967)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:534)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:493)
+	at org.eclipse.ui.actions.OpenFileAction.openFile(OpenFileAction.java:99)
+	at org.eclipse.ui.actions.OpenSystemEditorAction.run(OpenSystemEditorAction.java:99)
+	at org.eclipse.ui.views.navigator.OpenActionGroup.runDefaultAction(OpenActionGroup.java:133)
+	at org.eclipse.ui.views.navigator.MainActionGroup.runDefaultAction(MainActionGroup.java:330)
+	at org.eclipse.ui.views.navigator.ResourceNavigator.handleOpen(ResourceNavigator.java:787)
+	at org.eclipse.ui.views.navigator.ResourceNavigator$6.open(ResourceNavigator.java:499)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:47)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:866)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:864)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1152)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1256)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:269)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:309)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:43:27.129
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram synchronously - current thread is the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:43:27.129
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@275ef361 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: ARR_subsystems, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:43:27.176
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram synchronously - current thread is the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:43:27.176
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram synchronously - current thread is the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:43:39.403
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram synchronously - current thread is the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:43:39.403
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2eb6d34a (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.eclipse.graphiti.ui 4 0 2014-11-05 11:43:40.200
+!MESSAGE GFCommandStack.execute(Command) java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.osate.ge.diagrams.componentImplementation.patterns.SubcomponentPattern.refresh(SubcomponentPattern.java:293)
+	at org.osate.ge.diagrams.componentImplementation.patterns.SubcomponentPattern.update(SubcomponentPattern.java:224)
+	at org.eclipse.graphiti.pattern.UpdateFeatureForPattern.update(UpdateFeatureForPattern.java:70)
+	at org.osate.ge.services.impl.DefaultShapeCreationService.createUpdateShapesForElements(DefaultShapeCreationService.java:141)
+	at org.osate.ge.services.impl.DefaultShapeCreationService.createUpdateShapesForElements(DefaultShapeCreationService.java:58)
+	at org.osate.ge.diagrams.componentImplementation.patterns.ComponentImplementationPattern.createUpdateSubcomponents(ComponentImplementationPattern.java:150)
+	at org.osate.ge.diagrams.componentImplementation.patterns.ComponentImplementationPattern.refresh(ComponentImplementationPattern.java:131)
+	at org.osate.ge.diagrams.componentImplementation.patterns.ComponentImplementationPattern.update(ComponentImplementationPattern.java:112)
+	at org.eclipse.graphiti.pattern.UpdateFeatureForPattern.update(UpdateFeatureForPattern.java:70)
+	at org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(ComponentImplementationUpdateDiagramFeature.java:119)
+	at org.eclipse.graphiti.features.impl.AbstractUpdateFeature.execute(AbstractUpdateFeature.java:77)
+	at org.eclipse.graphiti.internal.command.GenericFeatureCommandWithContext.execute(GenericFeatureCommandWithContext.java:64)
+	at org.eclipse.graphiti.ui.internal.command.GefCommandWrapper.execute(GefCommandWrapper.java:51)
+	at org.eclipse.graphiti.ui.internal.editor.EmfOnGefCommand.execute(EmfOnGefCommand.java:54)
+	at org.eclipse.graphiti.internal.command.GFPreparableCommand2.doExecute(GFPreparableCommand2.java:37)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:135)
+	at org.eclipse.emf.workspace.EMFCommandOperation.doExecute(EMFCommandOperation.java:119)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:150)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:513)
+	at org.eclipse.emf.workspace.impl.WorkspaceCommandStackImpl.doExecute(WorkspaceCommandStackImpl.java:208)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:165)
+	at org.eclipse.graphiti.ui.internal.editor.GFWorkspaceCommandStackImpl.execute(GFWorkspaceCommandStackImpl.java:84)
+	at org.eclipse.graphiti.ui.internal.editor.GFCommandStack.execute(GFCommandStack.java:138)
+	at org.eclipse.graphiti.ui.editor.DiagramBehavior.executeFeature(DiagramBehavior.java:1084)
+	at org.eclipse.graphiti.features.impl.AbstractFeatureProvider.updateIfPossible(AbstractFeatureProvider.java:231)
+	at org.eclipse.graphiti.features.impl.AbstractFeatureProvider.updateIfPossibleAndNeeded(AbstractFeatureProvider.java:291)
+	at org.eclipse.graphiti.notification.DefaultNotificationService.updatePictogramElements(DefaultNotificationService.java:63)
+	at org.osate.ge.ui.editor.AgeDiagramBehavior$3.run(AgeDiagramBehavior.java:107)
+	at org.osate.ge.ui.editor.AgeDiagramBehavior.update(AgeDiagramBehavior.java:129)
+	at org.osate.ge.ui.editor.AgeDiagramBehavior.access$1(AgeDiagramBehavior.java:92)
+	at org.osate.ge.ui.editor.AgeDiagramBehavior$2.modelChanged(AgeDiagramBehavior.java:85)
+	at org.osate.ge.ui.xtext.ModelListener.modelChanged(ModelListener.java:79)
+	at org.osate.ge.ui.xtext.EditorListener$2.exec(EditorListener.java:82)
+	at org.osate.ge.ui.xtext.EditorListener$2.exec(EditorListener.java:1)
+	at org.eclipse.xtext.util.concurrent.AbstractReadWriteAcces.readOnly(AbstractReadWriteAcces.java:62)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.readOnly(XtextDocument.java:228)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.readOnly(XtextDocument.java:79)
+	at org.osate.ge.ui.xtext.EditorListener.partClosed(EditorListener.java:79)
+	at org.eclipse.ui.internal.WorkbenchPage$20.run(WorkbenchPage.java:4870)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.WorkbenchPage.firePartClosed(WorkbenchPage.java:4868)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart$1.handleEvent(CompatibilityPart.java:101)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:41)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:180)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:150)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4688)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:205)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:80)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:58)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setWidget(UIElementImpl.java:248)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.unbindWidget(SWTPartRenderer.java:140)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.disposeWidget(SWTPartRenderer.java:161)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.disposeWidget(ContributedPartRenderer.java:273)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:899)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:828)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:823)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:808)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.handleEvent(PartRenderingEngine.java:153)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:41)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:180)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:150)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4688)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:205)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:80)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:58)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:290)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1178)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1113)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1120)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.access$5(StackRenderer.java:1102)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$12.close(StackRenderer.java:996)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1852)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:284)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:43:40.200
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram synchronously - current thread is the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:43:40.200
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@275ef361 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: ARR_subsystems, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:43:40.231
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram synchronously - current thread is the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:43:40.231
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram synchronously - current thread is the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:44:00.220
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram synchronously - current thread is the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:44:04.908
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram synchronously - current thread is the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:44:04.908
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2eb6d34a (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.eclipse.graphiti.ui 4 0 2014-11-05 11:44:05.658
+!MESSAGE GFCommandStack.execute(Command) java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.osate.ge.diagrams.componentImplementation.patterns.SubcomponentPattern.refresh(SubcomponentPattern.java:293)
+	at org.osate.ge.diagrams.componentImplementation.patterns.SubcomponentPattern.update(SubcomponentPattern.java:224)
+	at org.eclipse.graphiti.pattern.UpdateFeatureForPattern.update(UpdateFeatureForPattern.java:70)
+	at org.osate.ge.services.impl.DefaultShapeCreationService.createUpdateShapesForElements(DefaultShapeCreationService.java:141)
+	at org.osate.ge.services.impl.DefaultShapeCreationService.createUpdateShapesForElements(DefaultShapeCreationService.java:58)
+	at org.osate.ge.diagrams.componentImplementation.patterns.ComponentImplementationPattern.createUpdateSubcomponents(ComponentImplementationPattern.java:150)
+	at org.osate.ge.diagrams.componentImplementation.patterns.ComponentImplementationPattern.refresh(ComponentImplementationPattern.java:131)
+	at org.osate.ge.diagrams.componentImplementation.patterns.ComponentImplementationPattern.update(ComponentImplementationPattern.java:112)
+	at org.eclipse.graphiti.pattern.UpdateFeatureForPattern.update(UpdateFeatureForPattern.java:70)
+	at org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(ComponentImplementationUpdateDiagramFeature.java:119)
+	at org.eclipse.graphiti.features.impl.AbstractUpdateFeature.execute(AbstractUpdateFeature.java:77)
+	at org.eclipse.graphiti.internal.command.GenericFeatureCommandWithContext.execute(GenericFeatureCommandWithContext.java:64)
+	at org.eclipse.graphiti.ui.internal.command.GefCommandWrapper.execute(GefCommandWrapper.java:51)
+	at org.eclipse.graphiti.ui.internal.editor.EmfOnGefCommand.execute(EmfOnGefCommand.java:54)
+	at org.eclipse.graphiti.internal.command.GFPreparableCommand2.doExecute(GFPreparableCommand2.java:37)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:135)
+	at org.eclipse.emf.workspace.EMFCommandOperation.doExecute(EMFCommandOperation.java:119)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:150)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:513)
+	at org.eclipse.emf.workspace.impl.WorkspaceCommandStackImpl.doExecute(WorkspaceCommandStackImpl.java:208)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:165)
+	at org.eclipse.graphiti.ui.internal.editor.GFWorkspaceCommandStackImpl.execute(GFWorkspaceCommandStackImpl.java:84)
+	at org.eclipse.graphiti.ui.internal.editor.GFCommandStack.execute(GFCommandStack.java:138)
+	at org.eclipse.graphiti.ui.editor.DiagramBehavior.executeFeature(DiagramBehavior.java:1084)
+	at org.eclipse.graphiti.features.impl.AbstractFeatureProvider.updateIfPossible(AbstractFeatureProvider.java:231)
+	at org.eclipse.graphiti.features.impl.AbstractFeatureProvider.updateIfPossibleAndNeeded(AbstractFeatureProvider.java:291)
+	at org.eclipse.graphiti.notification.DefaultNotificationService.updatePictogramElements(DefaultNotificationService.java:63)
+	at org.osate.ge.ui.editor.AgeDiagramBehavior$3.run(AgeDiagramBehavior.java:107)
+	at org.osate.ge.ui.editor.AgeDiagramBehavior.update(AgeDiagramBehavior.java:129)
+	at org.osate.ge.ui.editor.AgeDiagramBehavior.access$1(AgeDiagramBehavior.java:92)
+	at org.osate.ge.ui.editor.AgeDiagramBehavior$2.modelChanged(AgeDiagramBehavior.java:85)
+	at org.osate.ge.ui.xtext.ModelListener.modelChanged(ModelListener.java:79)
+	at org.osate.ge.ui.xtext.EditorListener$1.exec(EditorListener.java:64)
+	at org.osate.ge.ui.xtext.EditorListener$1.exec(EditorListener.java:1)
+	at org.eclipse.xtext.util.concurrent.AbstractReadWriteAcces.readOnly(AbstractReadWriteAcces.java:62)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.readOnly(XtextDocument.java:228)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.readOnly(XtextDocument.java:79)
+	at org.osate.ge.ui.xtext.EditorListener.partOpened(EditorListener.java:61)
+	at org.eclipse.ui.internal.WorkbenchPage$18.run(WorkbenchPage.java:4836)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.WorkbenchPage.firePartOpened(WorkbenchPage.java:4834)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart$2.handleEvent(CompatibilityPart.java:118)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:41)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:180)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:150)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4688)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:205)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:80)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:58)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.basic.impl.PartImpl.setObject(PartImpl.java:378)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:131)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:949)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:633)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:735)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:700)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:685)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1147)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:65)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:41)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:180)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:150)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4688)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:205)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:80)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:58)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:576)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:543)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:619)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:331)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1046)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3112)
+	at org.eclipse.ui.internal.WorkbenchPage.access$21(WorkbenchPage.java:3034)
+	at org.eclipse.ui.internal.WorkbenchPage$8.run(WorkbenchPage.java:3016)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3012)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2976)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2967)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:534)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:493)
+	at org.eclipse.ui.actions.OpenFileAction.openFile(OpenFileAction.java:99)
+	at org.eclipse.ui.actions.OpenSystemEditorAction.run(OpenSystemEditorAction.java:99)
+	at org.eclipse.ui.views.navigator.OpenActionGroup.runDefaultAction(OpenActionGroup.java:133)
+	at org.eclipse.ui.views.navigator.MainActionGroup.runDefaultAction(MainActionGroup.java:330)
+	at org.eclipse.ui.views.navigator.ResourceNavigator.handleOpen(ResourceNavigator.java:787)
+	at org.eclipse.ui.views.navigator.ResourceNavigator$6.open(ResourceNavigator.java:499)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:47)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:866)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:864)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1152)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1256)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:269)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:309)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:44:23.980
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@4a4d3b11 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: ARR_subsystems, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:44:26.278
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:44:31.309
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@1d5ceb43 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: ARR_processes, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:44:35.324
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:44:35.324
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@195cc26d (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_processes::vehicle_state_result_handler.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:44:40.522
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:44:40.522
+!MESSAGE org.osate.ge.diagrams.type.features.TypeUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@236e902e (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Type, name: ARR_processes::vehicle_state_result_handler, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.eclipse.jface 2 0 2014-11-05 11:45:01.896
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-11-05 11:45:01.896
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.graphiti.ui.internal.action.SaveImageAction,Export Diagram,
+		Export Diagram,
+		Category(org.eclipse.graphiti.ui.Graphiti_Category,Edit,Graphiti Diagram Editor,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6cf6bcc6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.graphiti.ui.diagramEditor,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.xtext.ui.editor.outline.QuickOutline,Quick Outline,
+		Open the quick outline.,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b4ee549,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.XtextEditorScope,,,system)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:45:12.867
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram asynchronously - current thread is not the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:45:12.867
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2eb6d34a (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.eclipse.graphiti.ui 4 0 2014-11-05 11:45:22.331
+!MESSAGE GFCommandStack.execute(Command) java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.osate.ge.diagrams.componentImplementation.patterns.SubcomponentPattern.refresh(SubcomponentPattern.java:293)
+	at org.osate.ge.diagrams.componentImplementation.patterns.SubcomponentPattern.add(SubcomponentPattern.java:202)
+	at org.eclipse.graphiti.pattern.AddFeatureForPattern.add(AddFeatureForPattern.java:56)
+	at org.osate.ge.services.impl.DefaultShapeCreationService.createUpdateShapesForElements(DefaultShapeCreationService.java:88)
+	at org.osate.ge.services.impl.DefaultShapeCreationService.createUpdateShapesForElements(DefaultShapeCreationService.java:58)
+	at org.osate.ge.diagrams.componentImplementation.patterns.ComponentImplementationPattern.createUpdateSubcomponents(ComponentImplementationPattern.java:150)
+	at org.osate.ge.diagrams.componentImplementation.patterns.ComponentImplementationPattern.refresh(ComponentImplementationPattern.java:131)
+	at org.osate.ge.diagrams.componentImplementation.patterns.ComponentImplementationPattern.update(ComponentImplementationPattern.java:112)
+	at org.eclipse.graphiti.pattern.UpdateFeatureForPattern.update(UpdateFeatureForPattern.java:70)
+	at org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(ComponentImplementationUpdateDiagramFeature.java:119)
+	at org.eclipse.graphiti.features.impl.AbstractUpdateFeature.execute(AbstractUpdateFeature.java:77)
+	at org.eclipse.graphiti.internal.command.GenericFeatureCommandWithContext.execute(GenericFeatureCommandWithContext.java:64)
+	at org.eclipse.graphiti.ui.internal.command.GefCommandWrapper.execute(GefCommandWrapper.java:51)
+	at org.eclipse.graphiti.ui.internal.editor.EmfOnGefCommand.execute(EmfOnGefCommand.java:54)
+	at org.eclipse.graphiti.internal.command.GFPreparableCommand2.doExecute(GFPreparableCommand2.java:37)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:135)
+	at org.eclipse.emf.workspace.EMFCommandOperation.doExecute(EMFCommandOperation.java:119)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:150)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:513)
+	at org.eclipse.emf.workspace.impl.WorkspaceCommandStackImpl.doExecute(WorkspaceCommandStackImpl.java:208)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:165)
+	at org.eclipse.graphiti.ui.internal.editor.GFWorkspaceCommandStackImpl.execute(GFWorkspaceCommandStackImpl.java:84)
+	at org.eclipse.graphiti.ui.internal.editor.GFCommandStack.execute(GFCommandStack.java:138)
+	at org.eclipse.graphiti.ui.editor.DiagramBehavior.executeFeature(DiagramBehavior.java:1084)
+	at org.eclipse.graphiti.features.impl.AbstractFeatureProvider.updateIfPossible(AbstractFeatureProvider.java:231)
+	at org.eclipse.graphiti.features.impl.AbstractFeatureProvider.updateIfPossibleAndNeeded(AbstractFeatureProvider.java:291)
+	at org.eclipse.graphiti.notification.DefaultNotificationService.updatePictogramElements(DefaultNotificationService.java:63)
+	at org.osate.ge.ui.editor.AgeDiagramBehavior$3.run(AgeDiagramBehavior.java:107)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:45:22.784
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram synchronously - current thread is the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:45:22.784
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2eb6d34a (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.eclipse.graphiti.ui 4 0 2014-11-05 11:45:30.382
+!MESSAGE GFCommandStack.execute(Command) java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.osate.ge.diagrams.componentImplementation.patterns.SubcomponentPattern.refresh(SubcomponentPattern.java:293)
+	at org.osate.ge.diagrams.componentImplementation.patterns.SubcomponentPattern.add(SubcomponentPattern.java:202)
+	at org.eclipse.graphiti.pattern.AddFeatureForPattern.add(AddFeatureForPattern.java:56)
+	at org.osate.ge.services.impl.DefaultShapeCreationService.createUpdateShapesForElements(DefaultShapeCreationService.java:88)
+	at org.osate.ge.services.impl.DefaultShapeCreationService.createUpdateShapesForElements(DefaultShapeCreationService.java:58)
+	at org.osate.ge.diagrams.componentImplementation.patterns.ComponentImplementationPattern.createUpdateSubcomponents(ComponentImplementationPattern.java:150)
+	at org.osate.ge.diagrams.componentImplementation.patterns.ComponentImplementationPattern.refresh(ComponentImplementationPattern.java:131)
+	at org.osate.ge.diagrams.componentImplementation.patterns.ComponentImplementationPattern.update(ComponentImplementationPattern.java:112)
+	at org.eclipse.graphiti.pattern.UpdateFeatureForPattern.update(UpdateFeatureForPattern.java:70)
+	at org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(ComponentImplementationUpdateDiagramFeature.java:119)
+	at org.eclipse.graphiti.features.impl.AbstractUpdateFeature.execute(AbstractUpdateFeature.java:77)
+	at org.eclipse.graphiti.internal.command.GenericFeatureCommandWithContext.execute(GenericFeatureCommandWithContext.java:64)
+	at org.eclipse.graphiti.ui.internal.command.GefCommandWrapper.execute(GefCommandWrapper.java:51)
+	at org.eclipse.graphiti.ui.internal.editor.EmfOnGefCommand.execute(EmfOnGefCommand.java:54)
+	at org.eclipse.graphiti.internal.command.GFPreparableCommand2.doExecute(GFPreparableCommand2.java:37)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:135)
+	at org.eclipse.emf.workspace.EMFCommandOperation.doExecute(EMFCommandOperation.java:119)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:150)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:513)
+	at org.eclipse.emf.workspace.impl.WorkspaceCommandStackImpl.doExecute(WorkspaceCommandStackImpl.java:208)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:165)
+	at org.eclipse.graphiti.ui.internal.editor.GFWorkspaceCommandStackImpl.execute(GFWorkspaceCommandStackImpl.java:84)
+	at org.eclipse.graphiti.ui.internal.editor.GFCommandStack.execute(GFCommandStack.java:138)
+	at org.eclipse.graphiti.ui.editor.DiagramBehavior.executeFeature(DiagramBehavior.java:1084)
+	at org.eclipse.graphiti.features.impl.AbstractFeatureProvider.updateIfPossible(AbstractFeatureProvider.java:231)
+	at org.eclipse.graphiti.features.impl.AbstractFeatureProvider.updateIfPossibleAndNeeded(AbstractFeatureProvider.java:291)
+	at org.eclipse.graphiti.notification.DefaultNotificationService.updatePictogramElements(DefaultNotificationService.java:63)
+	at org.osate.ge.ui.editor.AgeDiagramBehavior$3.run(AgeDiagramBehavior.java:107)
+	at org.osate.ge.ui.editor.AgeDiagramBehavior.update(AgeDiagramBehavior.java:129)
+	at org.osate.ge.ui.editor.AgeDiagramBehavior.access$1(AgeDiagramBehavior.java:92)
+	at org.osate.ge.ui.editor.AgeDiagramBehavior$2.modelChanged(AgeDiagramBehavior.java:85)
+	at org.osate.ge.ui.xtext.ModelListener.modelChanged(ModelListener.java:79)
+	at org.osate.ge.ui.xtext.EditorListener$3.modelChanged(EditorListener.java:97)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.notifyModelListeners(XtextDocument.java:127)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.afterModify(XtextDocument.java:186)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.afterModify(XtextDocument.java:1)
+	at org.eclipse.xtext.util.concurrent.AbstractReadWriteAcces.modify(AbstractReadWriteAcces.java:91)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.modify(XtextDocument.java:201)
+	at org.eclipse.xtext.util.concurrent.AbstractReadWriteAcces.process(AbstractReadWriteAcces.java:111)
+	at org.eclipse.xtext.ui.editor.reconciler.XtextReconciler$DocumentListener.performNecessaryUpdates(XtextReconciler.java:95)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.updateContentBeforeRead(XtextDocument.java:147)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.beforeReadOnly(XtextDocument.java:168)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.beforeReadOnly(XtextDocument.java:1)
+	at org.eclipse.xtext.util.concurrent.AbstractReadWriteAcces.readOnly(AbstractReadWriteAcces.java:61)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.readOnly(XtextDocument.java:228)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.readOnly(XtextDocument.java:79)
+	at org.eclipse.xtext.ui.editor.hover.AbstractEObjectHover.getHoverRegion(AbstractEObjectHover.java:54)
+	at org.eclipse.xtext.ui.editor.hover.AbstractCompositeHover.getHoverRegion(AbstractCompositeHover.java:62)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:140)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1131)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:519)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:208)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:45:30.382
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram asynchronously - current thread is not the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:45:30.542
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2eb6d34a (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.eclipse.graphiti.ui 4 0 2014-11-05 11:45:38.212
+!MESSAGE GFCommandStack.execute(Command) java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.osate.ge.diagrams.componentImplementation.patterns.SubcomponentPattern.refresh(SubcomponentPattern.java:293)
+	at org.osate.ge.diagrams.componentImplementation.patterns.SubcomponentPattern.add(SubcomponentPattern.java:202)
+	at org.eclipse.graphiti.pattern.AddFeatureForPattern.add(AddFeatureForPattern.java:56)
+	at org.osate.ge.services.impl.DefaultShapeCreationService.createUpdateShapesForElements(DefaultShapeCreationService.java:88)
+	at org.osate.ge.services.impl.DefaultShapeCreationService.createUpdateShapesForElements(DefaultShapeCreationService.java:58)
+	at org.osate.ge.diagrams.componentImplementation.patterns.ComponentImplementationPattern.createUpdateSubcomponents(ComponentImplementationPattern.java:150)
+	at org.osate.ge.diagrams.componentImplementation.patterns.ComponentImplementationPattern.refresh(ComponentImplementationPattern.java:131)
+	at org.osate.ge.diagrams.componentImplementation.patterns.ComponentImplementationPattern.update(ComponentImplementationPattern.java:112)
+	at org.eclipse.graphiti.pattern.UpdateFeatureForPattern.update(UpdateFeatureForPattern.java:70)
+	at org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(ComponentImplementationUpdateDiagramFeature.java:119)
+	at org.eclipse.graphiti.features.impl.AbstractUpdateFeature.execute(AbstractUpdateFeature.java:77)
+	at org.eclipse.graphiti.internal.command.GenericFeatureCommandWithContext.execute(GenericFeatureCommandWithContext.java:64)
+	at org.eclipse.graphiti.ui.internal.command.GefCommandWrapper.execute(GefCommandWrapper.java:51)
+	at org.eclipse.graphiti.ui.internal.editor.EmfOnGefCommand.execute(EmfOnGefCommand.java:54)
+	at org.eclipse.graphiti.internal.command.GFPreparableCommand2.doExecute(GFPreparableCommand2.java:37)
+	at org.eclipse.emf.transaction.RecordingCommand.execute(RecordingCommand.java:135)
+	at org.eclipse.emf.workspace.EMFCommandOperation.doExecute(EMFCommandOperation.java:119)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:150)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:513)
+	at org.eclipse.emf.workspace.impl.WorkspaceCommandStackImpl.doExecute(WorkspaceCommandStackImpl.java:208)
+	at org.eclipse.emf.transaction.impl.AbstractTransactionalCommandStack.execute(AbstractTransactionalCommandStack.java:165)
+	at org.eclipse.graphiti.ui.internal.editor.GFWorkspaceCommandStackImpl.execute(GFWorkspaceCommandStackImpl.java:84)
+	at org.eclipse.graphiti.ui.internal.editor.GFCommandStack.execute(GFCommandStack.java:138)
+	at org.eclipse.graphiti.ui.editor.DiagramBehavior.executeFeature(DiagramBehavior.java:1084)
+	at org.eclipse.graphiti.features.impl.AbstractFeatureProvider.updateIfPossible(AbstractFeatureProvider.java:231)
+	at org.eclipse.graphiti.features.impl.AbstractFeatureProvider.updateIfPossibleAndNeeded(AbstractFeatureProvider.java:291)
+	at org.eclipse.graphiti.notification.DefaultNotificationService.updatePictogramElements(DefaultNotificationService.java:63)
+	at org.osate.ge.ui.editor.AgeDiagramBehavior$3.run(AgeDiagramBehavior.java:107)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:46:00.193
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram asynchronously - current thread is not the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:46:00.208
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2eb6d34a (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:46:56.499
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram asynchronously - current thread is not the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:46:56.499
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2eb6d34a (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:47:27.956
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram synchronously - current thread is the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:47:27.956
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2eb6d34a (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:48:01.664
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram asynchronously - current thread is not the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:48:01.835
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2eb6d34a (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:49:03.375
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram asynchronously - current thread is not the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:49:03.375
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2eb6d34a (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 11:52:39.419
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@17beb170 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: ARR_processes, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 13:36:22.575
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@3eefa944 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: AGV_subsystems, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 13:36:32.560
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-05 13:36:32.560
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@6c148d7e (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: AGV_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 13:36:45.374
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@7e6d1500 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: ARR_subsystems, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 13:36:49.947
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-05 13:36:49.979
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@4fe2d797 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-05 13:37:24.640
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...

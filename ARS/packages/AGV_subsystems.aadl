@@ -34,7 +34,7 @@ with AGV_runtime;
 		new_flow_spec12 : flow sink door_feedback;
 	end mission_processing;
 
-	system implementation mission_processing.impl
+	system implementation mission_processing.old
 	subcomponents
 		motor_handler : process AGV_runtime::actuator_handler.motor;
 		AGV_controller : process AGV_runtime::controller.impl;
@@ -81,6 +81,9 @@ with AGV_runtime;
 		new_connection28 : port door_handler.actuator_signal -> door_signal;
 		new_connection29 : port weight_in -> weight_handler.sensor_data;
 		new_connection30 : port weight_handler.data_out -> AGV_controller.weight_in;
+	end mission_processing.old;
+
+	system implementation mission_processing.impl
 	end mission_processing.impl;
 
 end AGV_subsystems;

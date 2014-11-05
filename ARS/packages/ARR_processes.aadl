@@ -96,16 +96,16 @@ flows
 	process mission_controller
 	features
 		mission_data_agv : in data port;
+		mission_result : out data port;
 		mission_cotrol_agv : in event port;
 		navigation_control : out event port;
-		navigation_feedback : in event data port;
 		identification_control : out event port;
-		identification_feedback : in event data port;
 		operation_control : out event port;
+		navigation_feedback : in event data port;
+		identification_feedback : in event data port;
 		operation_feedback : in event data port;
-		mission_result : out data port;
-flows
-	new_flow_spec : flow sink mission_cotrol_agv;
+	flows
+		new_flow_spec : flow sink mission_cotrol_agv;
 		new_flow_spec2 : flow sink mission_data_agv;
 
 
@@ -171,14 +171,14 @@ end mission_result_handler;
 	process implementation mission_result_handler.impl
 	end mission_result_handler.impl;
 
-	process state_result_handler
+	process vehicle_state_result_handler
 features
 	state_result_in : in data port;
 	state_result_out : out data port;
-end state_result_handler;
+end vehicle_state_result_handler;
 
-	process implementation state_result_handler.impl
-	end state_result_handler.impl;
+	process implementation vehicle_state_result_handler.impl
+	end vehicle_state_result_handler.impl;
 
 	process disk_handler
 	features
