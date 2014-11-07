@@ -27,16 +27,18 @@ features
 	system implementation AGVs.impl
 	subcomponents
 		AGV_GPS : device devices::GPS.impl;
-	AGV_mission_processing : system AGV_subsystems::mission_processing.impl;
-	radar : device devices::Sensor.Radar;
+		AGV_mission_processing : system AGV_subsystems::mission_processing.impl;
+		radar : device devices::Sensor.Radar;
 		battery : device devices::battary.impl;
-	motor : device devices::Controller.motor;
+		motor : device devices::Controller.motor;
 		ACM_AGV : device devices::Transceiver_collect.impl;
 		AGV_ARR : device devices::Transceiver_assign.impl;
 		door : device devices::Controller.door;
 		weight : device devices::Sensor.weight;
-	connections
-		position : port AGV_GPS.position_info -> AGV_mission_processing.GPS_in;
+		camera : device devices::Sensor.camera;
+		microphone : device devices::Sensor.microphone;
+connections
+	position : port AGV_GPS.position_info -> AGV_mission_processing.GPS_in;
 		new_connection6 : port radar.data_out -> AGV_mission_processing.radar_in;
 		new_connection7 : port battery.battary_info -> AGV_mission_processing.battery_in;
 	new_connection8 : port motor.feedback_out -> AGV_mission_processing.motor_feedback;
@@ -71,17 +73,16 @@ features
 	system implementation ARRs_Ground.impl
 		subcomponents
 		ARR_GPS : device devices::GPS.impl;
-
-	camera : device devices::Sensor.camera;
 		job_processing : system ARR_subsystems::mission_processing.impl;
+		camera : device devices::Sensor.camera;
 		microphone : device devices::Sensor.microphone;
+		transceiver : device devices::Transceiver_collect.impl;
 		battery : device devices::battary.impl;
 		arm : device devices::Controller.arm;
 		motor : device devices::Controller.motor;
-	transceiver : device devices::Transceiver_collect.impl;
-	radar : device devices::Sensor.Radar;
-	disk : device devices::Disk.impl;
-connections
+		radar : device devices::Sensor.Radar;
+		disk : device devices::Disk.impl;
+	connections
 	new_connection11 : port ARR_GPS.position_info -> job_processing.GPS_in;
 
 		battery_info : port battery.battary_info -> job_processing.battery_in;

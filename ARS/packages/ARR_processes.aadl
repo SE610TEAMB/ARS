@@ -1,5 +1,7 @@
 package ARR_processes
 public
+with AGV_runtime;
+AGV_runtime_actuator_handler renames process AGV_runtime::actuator_handler;
 	process sensor_handler
 	features
 		sensor_data : in data port;
@@ -189,5 +191,8 @@ end vehicle_state_result_handler;
 
 	process implementation disk_handler.impl
 	end disk_handler.impl;
+
+	process implementation AGV_runtime_actuator_handler.impl extends AGV_runtime::actuator_handler.door
+	end AGV_runtime_actuator_handler.impl;
 
 end ARR_processes;

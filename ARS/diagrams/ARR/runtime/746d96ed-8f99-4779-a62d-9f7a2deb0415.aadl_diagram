@@ -6,10 +6,10 @@
     <properties key="is_layed_out" value="true"/>
     <properties key="independentObject" value="classifier ARR_runtime::sensor_handler"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="118" height="50" x="290" y="20" style="//@styles.0/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="127" height="50" x="290" y="20" style="//@styles.0/@styles.0">
       <points x="20"/>
-      <points x="118"/>
-      <points x="98" y="50"/>
+      <points x="127"/>
+      <points x="107" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.0 //@connections.1 //@connections.2 //@connections.3 //@connections.12">
@@ -17,7 +17,7 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::sensor_handler"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="118" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="sensor_handler"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="127" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="sensor_handler"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
@@ -42,10 +42,10 @@
     <properties key="is_layed_out" value="true"/>
     <properties key="independentObject" value="classifier ARR_runtime::actuator_handler"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="123" height="50" x="1020" y="20" style="//@styles.0/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="138" height="50" x="1020" y="20" style="//@styles.0/@styles.0">
       <points x="20"/>
-      <points x="123"/>
-      <points x="103" y="50"/>
+      <points x="138"/>
+      <points x="118" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.4 //@connections.5">
@@ -53,17 +53,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::actuator_handler"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="123" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="actuator_handler"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="138" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="actuator_handler"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="is_layed_out" value="true"/>
     <properties key="independentObject" value="classifier ARR_runtime::actuator_handler.arm"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="148" height="50" x="880" y="130" style="//@styles.0/@styles.0/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="167" height="50" x="880" y="130" style="//@styles.0/@styles.0/@styles.0">
       <points x="20"/>
-      <points x="148"/>
-      <points x="128" y="50"/>
+      <points x="167"/>
+      <points x="147" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.4">
@@ -71,17 +71,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::actuator_handler.arm"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="148" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="actuator_handler.arm"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="167" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="actuator_handler.arm"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="is_layed_out" value="true"/>
     <properties key="independentObject" value="classifier ARR_runtime::sensor_handler.GPS"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="143" height="50" x="28" y="130" style="//@styles.0/@styles.0/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="159" height="50" x="28" y="130" style="//@styles.0/@styles.0/@styles.0">
       <points x="20"/>
-      <points x="143"/>
-      <points x="123" y="50"/>
+      <points x="159"/>
+      <points x="139" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.0">
@@ -89,17 +89,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::sensor_handler.GPS"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="143" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="sensor_handler.GPS"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="159" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="sensor_handler.GPS"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="is_layed_out" value="true"/>
     <properties key="independentObject" value="classifier ARR_runtime::sensor_handler.camera"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="162" height="50" x="220" y="130" style="//@styles.0/@styles.0/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="179" height="50" x="220" y="130" style="//@styles.0/@styles.0/@styles.0">
       <points x="20"/>
-      <points x="162"/>
-      <points x="142" y="50"/>
+      <points x="179"/>
+      <points x="159" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.1">
@@ -107,17 +107,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::sensor_handler.camera"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="162" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="sensor_handler.camera"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="179" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="sensor_handler.camera"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="is_layed_out" value="true"/>
     <properties key="independentObject" value="classifier ARR_runtime::sensor_handler.microphone"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="188" height="50" x="390" y="130" style="//@styles.0/@styles.0/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="207" height="50" x="390" y="130" style="//@styles.0/@styles.0/@styles.0">
       <points x="20"/>
-      <points x="188"/>
-      <points x="168" y="50"/>
+      <points x="207"/>
+      <points x="187" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.2">
@@ -125,17 +125,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::sensor_handler.microphone"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="188" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="sensor_handler.microphone"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="207" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="sensor_handler.microphone"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="is_layed_out" value="true"/>
     <properties key="independentObject" value="classifier ARR_runtime::sensor_handler.battery"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="160" height="50" x="610" y="130" style="//@styles.0/@styles.0/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="175" height="50" x="610" y="130" style="//@styles.0/@styles.0/@styles.0">
       <points x="20"/>
-      <points x="160"/>
-      <points x="140" y="50"/>
+      <points x="175"/>
+      <points x="155" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.3">
@@ -143,17 +143,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::sensor_handler.battery"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="160" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="sensor_handler.battery"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="175" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="sensor_handler.battery"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="is_layed_out" value="true"/>
     <properties key="independentObject" value="classifier ARR_runtime::actuator_handler.motor"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="160" height="50" x="1080" y="130" style="//@styles.0/@styles.0/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="179" height="50" x="1080" y="130" style="//@styles.0/@styles.0/@styles.0">
       <points x="20"/>
-      <points x="160"/>
-      <points x="140" y="50"/>
+      <points x="179"/>
+      <points x="159" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.5">
@@ -161,17 +161,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::actuator_handler.motor"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="160" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="actuator_handler.motor"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="179" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="actuator_handler.motor"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="classifier ARR_runtime::controller.impl"/>
     <properties key="is_layed_out" value="true"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="111" height="50" x="225" y="340" style="//@styles.0/@styles.0/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="123" height="50" x="225" y="340" style="//@styles.0/@styles.0/@styles.0">
       <points x="20"/>
-      <points x="111"/>
-      <points x="91" y="50"/>
+      <points x="123"/>
+      <points x="103" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.6">
@@ -179,7 +179,7 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::controller.impl"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="111" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="controller.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="123" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="controller.impl"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
@@ -204,10 +204,10 @@
     <properties key="independentObject" value="classifier ARR_runtime::logical.impl"/>
     <properties key="is_layed_out" value="true"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="100" height="50" x="60" y="600" style="//@styles.0/@styles.1/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="105" height="50" x="60" y="600" style="//@styles.0/@styles.1/@styles.0">
       <points x="20"/>
-      <points x="100"/>
-      <points x="80" y="50"/>
+      <points x="105"/>
+      <points x="85" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.7">
@@ -215,17 +215,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::logical.impl"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="100" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="logical.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="105" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="logical.impl"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="is_layed_out" value="true"/>
     <properties key="independentObject" value="classifier ARR_runtime::media_encoding"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="121" height="50" x="336" y="500" style="//@styles.0/@styles.1">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="136" height="50" x="336" y="500" style="//@styles.0/@styles.1">
       <points x="20"/>
-      <points x="121"/>
-      <points x="101" y="50"/>
+      <points x="136"/>
+      <points x="116" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.9">
@@ -233,17 +233,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::media_encoding"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="121" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="media_encoding"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="136" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="media_encoding"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="is_layed_out" value="true"/>
     <properties key="independentObject" value="classifier ARR_runtime::media_encoding.impl"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="148" height="50" x="320" y="600" style="//@styles.0/@styles.1/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="168" height="50" x="320" y="600" style="//@styles.0/@styles.1/@styles.0">
       <points x="20"/>
-      <points x="148"/>
-      <points x="128" y="50"/>
+      <points x="168"/>
+      <points x="148" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.9">
@@ -251,17 +251,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::media_encoding.impl"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="148" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="media_encoding.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="168" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="media_encoding.impl"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="is_layed_out" value="true"/>
     <properties key="independentObject" value="classifier ARR_runtime::navigation_processing"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="155" height="50" x="680" y="500" style="//@styles.0/@styles.1">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="172" height="50" x="680" y="500" style="//@styles.0/@styles.1">
       <points x="20"/>
-      <points x="155"/>
-      <points x="135" y="50"/>
+      <points x="172"/>
+      <points x="152" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.8">
@@ -269,17 +269,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::navigation_processing"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="155" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="navigation_processing"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="172" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="navigation_processing"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="classifier ARR_runtime::navigation_processing.impl"/>
     <properties key="is_layed_out" value="true"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="182" height="50" x="653" y="600" style="//@styles.0/@styles.1/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="204" height="50" x="653" y="600" style="//@styles.0/@styles.1/@styles.0">
       <points x="20"/>
-      <points x="182"/>
-      <points x="162" y="50"/>
+      <points x="204"/>
+      <points x="184" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.8">
@@ -287,17 +287,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::navigation_processing.impl"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="182" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="navigation_processing.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="204" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="navigation_processing.impl"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="classifier ARR_runtime::mission_decoder"/>
     <properties key="is_layed_out" value="true"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="127" height="50" x="730" y="300" style="//@styles.0/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="137" height="50" x="730" y="300" style="//@styles.0/@styles.0">
       <points x="20"/>
-      <points x="127"/>
-      <points x="107" y="50"/>
+      <points x="137"/>
+      <points x="117" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.11">
@@ -305,17 +305,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::mission_decoder"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="127" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="mission_decoder"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="137" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="mission_decoder"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="classifier ARR_runtime::result_encoder"/>
     <properties key="is_layed_out" value="true"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="115" height="50" x="913" y="300" style="//@styles.0/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="124" height="50" x="913" y="300" style="//@styles.0/@styles.0">
       <points x="20"/>
-      <points x="115"/>
-      <points x="95" y="50"/>
+      <points x="124"/>
+      <points x="104" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.10">
@@ -323,17 +323,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::result_encoder"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="115" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="result_encoder"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="124" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="result_encoder"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="classifier ARR_runtime::result_encoder.impl"/>
     <properties key="is_layed_out" value="true"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="142" height="50" x="899" y="380" style="//@styles.0/@styles.0/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="156" height="50" x="899" y="380" style="//@styles.0/@styles.0/@styles.0">
       <points x="20"/>
-      <points x="142"/>
-      <points x="122" y="50"/>
+      <points x="156"/>
+      <points x="136" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.10">
@@ -341,17 +341,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::result_encoder.impl"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="142" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="result_encoder.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="156" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="result_encoder.impl"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="classifier ARR_runtime::mission_decoder.impl"/>
     <properties key="is_layed_out" value="true"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="154" height="50" x="703" y="390" style="//@styles.0/@styles.0/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="169" height="50" x="703" y="390" style="//@styles.0/@styles.0/@styles.0">
       <points x="20"/>
-      <points x="154"/>
-      <points x="134" y="50"/>
+      <points x="169"/>
+      <points x="149" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.11">
@@ -359,17 +359,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::mission_decoder.impl"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="154" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="mission_decoder.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="169" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="mission_decoder.impl"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="is_layed_out" value="true"/>
     <properties key="independentObject" value="classifier ARR_runtime::sensor_handler.radar"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="150" height="50" x="510" y="220" style="//@styles.0/@styles.0/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="165" height="50" x="510" y="220" style="//@styles.0/@styles.0/@styles.0">
       <points x="20"/>
-      <points x="150"/>
-      <points x="130" y="50"/>
+      <points x="165"/>
+      <points x="145" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.12">
@@ -377,17 +377,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::sensor_handler.radar"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="150" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="sensor_handler.radar"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="165" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="sensor_handler.radar"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="classifier ARR_runtime::mission_analyzing.impl"/>
     <properties key="is_layed_out" value="true"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="159" height="50" x="31" y="760" style="//@styles.0/@styles.1/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="179" height="50" x="31" y="760" style="//@styles.0/@styles.1/@styles.0">
       <points x="20"/>
-      <points x="159"/>
-      <points x="139" y="50"/>
+      <points x="179"/>
+      <points x="159" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.13">
@@ -395,17 +395,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::mission_analyzing.impl"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="159" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="mission_analyzing.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="179" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="mission_analyzing.impl"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="classifier ARR_runtime::mission_analyzing"/>
     <properties key="is_layed_out" value="true"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="132" height="50" x="33" y="680" style="//@styles.0/@styles.1">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="147" height="50" x="33" y="680" style="//@styles.0/@styles.1">
       <points x="20"/>
-      <points x="132"/>
-      <points x="112" y="50"/>
+      <points x="147"/>
+      <points x="127" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.13">
@@ -413,17 +413,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::mission_analyzing"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="132" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="mission_analyzing"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="147" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="mission_analyzing"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="is_layed_out" value="true"/>
     <properties key="independentObject" value="classifier ARR_runtime::decision_procession"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="146" height="50" x="341" y="680" style="//@styles.0/@styles.1">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="158" height="50" x="341" y="680" style="//@styles.0/@styles.1">
       <points x="20"/>
-      <points x="146"/>
-      <points x="126" y="50"/>
+      <points x="158"/>
+      <points x="138" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.14">
@@ -431,17 +431,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::decision_procession"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="146" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="decision_procession"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="158" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="decision_procession"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="classifier ARR_runtime::decision_procession.impl"/>
     <properties key="is_layed_out" value="true"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="173" height="50" x="310" y="750" style="//@styles.0/@styles.1/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="190" height="50" x="310" y="750" style="//@styles.0/@styles.1/@styles.0">
       <points x="20"/>
-      <points x="173"/>
-      <points x="153" y="50"/>
+      <points x="190"/>
+      <points x="170" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.14">
@@ -449,17 +449,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::decision_procession.impl"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="173" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="decision_procession.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="190" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="decision_procession.impl"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="classifier ARR_runtime::device_service"/>
     <properties key="is_layed_out" value="true"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="113" height="50" x="701" y="670" style="//@styles.0/@styles.1">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="124" height="50" x="701" y="670" style="//@styles.0/@styles.1">
       <points x="20"/>
-      <points x="113"/>
-      <points x="93" y="50"/>
+      <points x="124"/>
+      <points x="104" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.15">
@@ -467,17 +467,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::device_service"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="113" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="device_service"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="124" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="device_service"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="classifier ARR_runtime::device_service.impl"/>
     <properties key="is_layed_out" value="true"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="140" height="50" x="670" y="780" style="//@styles.0/@styles.1/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="156" height="50" x="670" y="780" style="//@styles.0/@styles.1/@styles.0">
       <points x="20"/>
-      <points x="140"/>
-      <points x="120" y="50"/>
+      <points x="156"/>
+      <points x="136" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.15">
@@ -485,17 +485,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::device_service.impl"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="140" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="device_service.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="156" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="device_service.impl"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="classifier ARR_runtime::result_processing.impl"/>
     <properties key="is_layed_out" value="true"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="159" height="50" x="921" y="610" style="//@styles.0/@styles.1/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="172" height="50" x="921" y="610" style="//@styles.0/@styles.1/@styles.0">
       <points x="20"/>
-      <points x="159"/>
-      <points x="139" y="50"/>
+      <points x="172"/>
+      <points x="152" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.16">
@@ -503,17 +503,17 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::result_processing.impl"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="159" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="result_processing.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="172" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="result_processing.impl"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="classifier ARR_runtime::result_processing"/>
     <properties key="is_layed_out" value="true"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="132" height="50" x="940" y="500" style="//@styles.0/@styles.1">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="140" height="50" x="940" y="500" style="//@styles.0/@styles.1">
       <points x="20"/>
-      <points x="132"/>
-      <points x="112" y="50"/>
+      <points x="140"/>
+      <points x="120" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.16">
@@ -521,7 +521,7 @@
     </anchors>
     <children visible="true">
       <properties key="independentObject" value="classifier ARR_runtime::result_processing"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="132" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="result_processing"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="140" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="result_processing"/>
     </children>
   </children>
   <styles background="//@colors.1" foreground="//@colors.2" lineWidth="1" lineVisible="true" transparency="0.0" id="classifier" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED">
