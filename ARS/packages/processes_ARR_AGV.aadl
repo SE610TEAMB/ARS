@@ -16,6 +16,33 @@ AGV_runtime_actuator_handler renames process AGV_runtime::actuator_handler;
 	process implementation sensor_handler.radar
 	end sensor_handler.radar;
 	
+   process mission_result_arr
+	features
+		mission_results : in data port;
+		vehicle_state : in data port;
+		results : out data port;
+	flows
+		new_flow_spec : flow path mission_results -> results;
+		new_flow_spec2 : flow path vehicle_state -> results;
+	end mission_result_arr;
+
+	process implementation mission_result_arr.impl
+	end mission_result_arr.impl;
+
+	process mission_provider_arr
+	features
+		mission_data_in : in data port;
+		mission_data_out : out data port;
+		mission_control_out : out event port;
+		mission_control_in : in event port;
+	flows
+		new_flow_spec : flow path mission_data_in -> mission_data_out;
+		new_flow_spec2 : flow path mission_control_in -> mission_control_out;
+	end mission_provider_arr;
+	
+	process implementation mission_provider_arr.impl
+	end mission_provider_arr.impl;
+	
 	process battery_handler
 	features
 		main_in : in data port;
@@ -237,12 +264,7 @@ end mission_result_handler;
 	process implementation system_controller_agv.impl
 	end system_controller_agv.impl;
 
-	process mission_provider
-	features
-		mission_data : in data port;
-		new_feature2 : in out data port;
-		mission_control : in event port;
-		control_feedback : out event data port;
-	end mission_provider;
+	process implementation sensor_handler.weight
+	end sensor_handler.weight;
 
 end processes_ARR_AGV;
