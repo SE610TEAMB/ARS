@@ -63,7 +63,6 @@ features
 		new_connection20 : port camera.data_out -> AGV_mission_processing.camera_in;
 		new_connection21 : port AGV_mission_processing.data_out_disk -> disk_backup.data_in;
 		new_connection22 : port microphone.data_out -> AGV_mission_processing.microphone_in;
-		new_connection23 : port backup_battery.battary_info -> AGV_mission_processing.battery_backup;
 	end AGVs.impl;
 
 	system ARRs_Ground
