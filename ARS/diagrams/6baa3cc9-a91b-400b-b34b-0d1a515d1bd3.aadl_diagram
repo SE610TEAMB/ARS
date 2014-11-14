@@ -48,7 +48,7 @@
       <points x="114" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
-    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.2 //@connections.20">
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.2 //@connections.19">
       <properties key="name" value="chopbox"/>
     </anchors>
     <children visible="true">
@@ -60,7 +60,7 @@
     <properties key="independentObject" value="classifier processes_ARR_AGV::mission_handler.impl"/>
     <properties key="is_layed_out" value="true"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="166" height="50" x="-730" y="232" style="//@styles.0/@styles.0/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="166" height="50" x="-740" y="250" style="//@styles.0/@styles.0/@styles.0">
       <points x="20"/>
       <points x="166"/>
       <points x="146" y="50"/>
@@ -96,13 +96,13 @@
     <properties key="independentObject" value="classifier processes_ARR_AGV::disk_handler"/>
     <properties key="is_layed_out" value="true"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="111" height="50" x="920" y="580" style="//@styles.0/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="111" height="50" x="1040" y="570" style="//@styles.0/@styles.0">
       <points x="20"/>
       <points x="111"/>
       <points x="91" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
-    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.13">
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.13 //@connections.21">
       <properties key="name" value="chopbox"/>
     </anchors>
     <children visible="true">
@@ -114,7 +114,7 @@
     <properties key="independentObject" value="classifier processes_ARR_AGV::sensor_handler.GPS"/>
     <properties key="is_layed_out" value="true"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="159" height="50" x="820" y="700" style="//@styles.0/@styles.0/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="159" height="50" x="810" y="700" style="//@styles.0/@styles.0/@styles.0">
       <points x="20"/>
       <points x="159"/>
       <points x="139" y="50"/>
@@ -138,7 +138,7 @@
       <points x="80" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
-    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.11 //@connections.18">
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.11 //@connections.17">
       <properties key="name" value="chopbox"/>
     </anchors>
     <children visible="true">
@@ -150,7 +150,7 @@
     <properties key="independentObject" value="classifier processes_ARR_AGV::mission_controller"/>
     <properties key="is_layed_out" value="true"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="146" height="50" x="-275" y="130" style="//@styles.0/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="146" height="50" x="-298" y="130" style="//@styles.0/@styles.0">
       <points x="20"/>
       <points x="146"/>
       <points x="126" y="50"/>
@@ -330,13 +330,13 @@
     <properties key="independentObject" value="classifier processes_ARR_AGV::vehicle_state_result_handler"/>
     <properties key="is_layed_out" value="true"/>
     <properties key="is_ghost" value="false"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="211" height="50" x="570" y="120" style="//@styles.0/@styles.0">
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="211" height="50" x="570" y="130" style="//@styles.0/@styles.0">
       <points x="20"/>
       <points x="211"/>
       <points x="191" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
-    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.5 //@connections.21">
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.5 //@connections.20">
       <properties key="name" value="chopbox"/>
     </anchors>
     <children visible="true">
@@ -408,7 +408,7 @@
       <points x="121" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
-    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.15 //@connections.17">
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.15 //@connections.22">
       <properties key="name" value="chopbox"/>
     </anchors>
     <children visible="true">
@@ -527,6 +527,7 @@
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="classifier processes_ARR_AGV::mission_result_handler.agv"/>
     <properties key="is_layed_out" value="true"/>
+    <properties key="is_ghost" value="false"/>
     <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="203" height="50" x="65" y="250" style="//@styles.0/@styles.0/@styles.0">
       <points x="20"/>
       <points x="203"/>
@@ -542,32 +543,16 @@
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
-    <properties key="independentObject" value="classifier processes_ARR_AGV::system_controller.agv"/>
-    <properties key="is_layed_out" value="true"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="168" height="50" x="678" y="470" style="//@styles.0/@styles.0/@styles.0">
-      <points x="20"/>
-      <points x="168"/>
-      <points x="148" y="50"/>
-      <points y="50"/>
-    </graphicsAlgorithm>
-    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.17">
-      <properties key="name" value="chopbox"/>
-    </anchors>
-    <children visible="true">
-      <properties key="independentObject" value="classifier processes_ARR_AGV::system_controller.agv"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="168" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="system_controller.agv"/>
-    </children>
-  </children>
-  <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="classifier processes_ARR_AGV::navigation.agv"/>
     <properties key="is_layed_out" value="true"/>
+    <properties key="is_ghost" value="false"/>
     <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="124" height="50" x="130" y="460" style="//@styles.0/@styles.0/@styles.0">
       <points x="20"/>
       <points x="124"/>
       <points x="104" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
-    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.18">
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.17">
       <properties key="name" value="chopbox"/>
     </anchors>
     <children visible="true">
@@ -578,13 +563,14 @@
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="classifier processes_ARR_AGV::mission_controller_agv.impl"/>
     <properties key="is_layed_out" value="true"/>
+    <properties key="is_ghost" value="false"/>
     <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="208" height="50" x="-155" y="240" style="//@styles.0/@styles.0/@styles.0">
       <points x="20"/>
       <points x="208"/>
       <points x="188" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
-    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.19">
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.18">
       <properties key="name" value="chopbox"/>
     </anchors>
     <children visible="true">
@@ -595,13 +581,14 @@
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="classifier processes_ARR_AGV::mission_controller_agv"/>
     <properties key="is_layed_out" value="true"/>
+    <properties key="is_ghost" value="false"/>
     <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="176" height="50" x="-84" y="130" style="//@styles.0/@styles.0">
       <points x="20"/>
       <points x="176"/>
       <points x="156" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
-    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.19">
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.18">
       <properties key="name" value="chopbox"/>
     </anchors>
     <children visible="true">
@@ -612,13 +599,14 @@
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="classifier processes_ARR_AGV::mission_handler.agv"/>
     <properties key="is_layed_out" value="true"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="161" height="50" x="-557" y="240" style="//@styles.0/@styles.0/@styles.0">
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="161" height="50" x="-560" y="250" style="//@styles.0/@styles.0/@styles.0">
       <points x="20"/>
       <points x="161"/>
       <points x="141" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
-    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.20">
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.19">
       <properties key="name" value="chopbox"/>
     </anchors>
     <children visible="true">
@@ -629,18 +617,91 @@
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="independentObject" value="classifier processes_ARR_AGV::vehicle_state_result_handler.agv"/>
     <properties key="is_layed_out" value="true"/>
-    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="238" height="50" x="830" y="240" style="//@styles.0/@styles.0/@styles.0">
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="238" height="50" x="780" y="250" style="//@styles.0/@styles.0/@styles.0">
       <points x="20"/>
       <points x="238"/>
       <points x="218" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.20">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier processes_ARR_AGV::vehicle_state_result_handler.agv"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="238" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="vehicle_state_result_handler.agv"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier processes_ARR_AGV::disk_handler.agv"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="138" height="50" x="1140" y="690" style="//@styles.0/@styles.0/@styles.0">
+      <points x="20"/>
+      <points x="138"/>
+      <points x="118" y="50"/>
       <points y="50"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.21">
       <properties key="name" value="chopbox"/>
     </anchors>
     <children visible="true">
-      <properties key="independentObject" value="classifier processes_ARR_AGV::vehicle_state_result_handler.agv"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="238" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="vehicle_state_result_handler.agv"/>
+      <properties key="independentObject" value="classifier processes_ARR_AGV::disk_handler.agv"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="138" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="disk_handler.agv"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier processes_ARR_AGV::system_controller_agv"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="171" height="50" x="857" y="350" style="//@styles.0/@styles.0">
+      <points x="20"/>
+      <points x="171"/>
+      <points x="151" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.23" incomingConnections="//@connections.22">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier processes_ARR_AGV::system_controller_agv"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="171" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="system_controller_agv"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="independentObject" value="classifier processes_ARR_AGV::system_controller_agv.impl"/>
+    <properties key="is_layed_out" value="true"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="203" height="50" x="740" y="470" style="//@styles.0/@styles.0/@styles.0">
+      <points x="20"/>
+      <points x="203"/>
+      <points x="183" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.23">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier processes_ARR_AGV::system_controller_agv.impl"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="203" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="system_controller_agv.impl"/>
+    </children>
+  </children>
+  <children xsi:type="pi:ContainerShape" visible="true" active="true">
+    <properties key="is_layed_out" value="true"/>
+    <properties key="independentObject" value="classifier processes_ARR_AGV::mission_provider"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="138" height="50" x="-610" y="360" style="//@styles.0/@styles.0">
+      <points x="20"/>
+      <points x="138"/>
+      <points x="118" y="50"/>
+      <points y="50"/>
+    </graphicsAlgorithm>
+    <anchors xsi:type="pi:ChopboxAnchor">
+      <properties key="name" value="chopbox"/>
+    </anchors>
+    <children visible="true">
+      <properties key="independentObject" value="classifier processes_ARR_AGV::mission_provider"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="138" height="50" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="mission_provider"/>
     </children>
   </children>
   <styles background="//@colors.1" foreground="//@colors.2" lineWidth="1" lineVisible="true" transparency="0.0" id="classifier" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED">
@@ -651,6 +712,7 @@
   <styles foreground="//@colors.2" lineStyle="UNSPECIFIED" filled="false" id="label" font="//@fonts.0"/>
   <styles background="//@colors.1" foreground="//@colors.2" lineWidth="2" lineStyle="DASH" lineVisible="true" id="implements" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED"/>
   <styles background="//@colors.1" foreground="//@colors.2" lineWidth="2" lineVisible="true" id="generalization-arrowhead" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED"/>
+  <styles background="//@colors.1" foreground="//@colors.2" lineWidth="2" lineVisible="true" id="extends" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED"/>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.23/@anchors.0" end="//@children.0/@anchors.0">
     <properties key="independentObject" value="realization processes_ARR_AGV::actuator_handler.arm"/>
     <properties key="is_ghost" value="false"/>
@@ -845,6 +907,7 @@
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.20/@anchors.0" end="//@children.29/@anchors.0">
     <properties key="independentObject" value="realization processes_ARR_AGV::mission_result_handler.agv"/>
+    <properties key="is_ghost" value="false"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
     <connectionDecorators visible="true" locationRelative="true">
       <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
@@ -854,19 +917,9 @@
       </graphicsAlgorithm>
     </connectionDecorators>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.22/@anchors.0" end="//@children.30/@anchors.0">
-    <properties key="independentObject" value="realization processes_ARR_AGV::system_controller.agv"/>
-    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
-    <connectionDecorators visible="true" locationRelative="true">
-      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
-        <points x="-15" y="10"/>
-        <points/>
-        <points x="-15" y="-10"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-  </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.7/@anchors.0" end="//@children.31/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.7/@anchors.0" end="//@children.30/@anchors.0">
     <properties key="independentObject" value="realization processes_ARR_AGV::navigation.agv"/>
+    <properties key="is_ghost" value="false"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
     <connectionDecorators visible="true" locationRelative="true">
       <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
@@ -876,8 +929,9 @@
       </graphicsAlgorithm>
     </connectionDecorators>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.33/@anchors.0" end="//@children.32/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.32/@anchors.0" end="//@children.31/@anchors.0">
     <properties key="independentObject" value="realization processes_ARR_AGV::mission_controller_agv.impl"/>
+    <properties key="is_ghost" value="false"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
     <connectionDecorators visible="true" locationRelative="true">
       <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
@@ -887,8 +941,9 @@
       </graphicsAlgorithm>
     </connectionDecorators>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.2/@anchors.0" end="//@children.34/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.2/@anchors.0" end="//@children.33/@anchors.0">
     <properties key="independentObject" value="realization processes_ARR_AGV::mission_handler.agv"/>
+    <properties key="is_ghost" value="false"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
     <connectionDecorators visible="true" locationRelative="true">
       <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
@@ -898,8 +953,45 @@
       </graphicsAlgorithm>
     </connectionDecorators>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.18/@anchors.0" end="//@children.35/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.18/@anchors.0" end="//@children.34/@anchors.0">
     <properties key="independentObject" value="realization processes_ARR_AGV::vehicle_state_result_handler.agv"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.5/@anchors.0" end="//@children.35/@anchors.0">
+    <properties key="independentObject" value="realization processes_ARR_AGV::disk_handler.agv"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
+    <connectionDecorators visible="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.22/@anchors.0" end="//@children.36/@anchors.0">
+    <properties key="independentObject" value="type_extension processes_ARR_AGV::system_controller_agv"/>
+    <properties key="is_ghost" value="false"/>
+    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.4"/>
+    <connectionDecorators visible="true" locationRelative="true">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">
+        <points x="-15" y="10"/>
+        <points/>
+        <points x="-15" y="-10"/>
+      </graphicsAlgorithm>
+    </connectionDecorators>
+  </connections>
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.36/@anchors.0" end="//@children.37/@anchors.0">
+    <properties key="independentObject" value="realization processes_ARR_AGV::system_controller_agv.impl"/>
+    <properties key="is_ghost" value="false"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.2"/>
     <connectionDecorators visible="true" locationRelative="true">
       <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.3">

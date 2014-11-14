@@ -2530,7 +2530,7 @@
       <properties key="independentObject" value="subcomponent ARR_subsystems::mission_processing.impl.ARR_CPU"/>
       <properties key="is_layed_out" value="true"/>
       <properties key="is_ghost" value="false"/>
-      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="150" height="50" x="760" y="1341" style="//@styles.0/@styles.4">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="150" height="50" x="770" y="1320" style="//@styles.0/@styles.4">
         <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.4">
           <points y="12"/>
           <points x="140" y="12"/>
@@ -3457,7 +3457,7 @@
       <properties key="independentObject" value="subcomponent ARR_subsystems::mission_processing.impl.vehicle_state_result_handler"/>
       <properties key="is_layed_out" value="true"/>
       <properties key="is_ghost" value="false"/>
-      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="347" height="132" x="960" y="704" style="//@styles.0/@styles.3/@styles.0">
+      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="347" height="132" x="990" y="770" style="//@styles.0/@styles.3/@styles.0">
         <points x="20"/>
         <points x="347"/>
         <points x="327" y="132"/>

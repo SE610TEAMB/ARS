@@ -129,16 +129,17 @@ flows
 	features
 		mission_data_amc : in data port;
 		mission_result : out data port;
+		mission_data_arr : out data port;
+		mission_result_arr : in data port;
 		mission_control_amc : in event port;
 		navigation_control : out event port;
-		identification_control : out event port;
 		mission_control_arr : out event port;
+		door_feedback : in event port;
 		navigation_feedback : in event data port;
-		mission_control_feedback : in event data port;
-		operation_feedback : in event data port;
+		cmd_door : out event data port;
 	flows
 		new_flow_spec : flow sink mission_control_amc;
-		new_flow_spec2 : flow sink mission_data_amc;
+		new_fow_spec2 : flow sink mission_data_amc;
 	end mission_controller_agv;
 	
 	process implementation mission_controller_agv.impl
@@ -156,10 +157,7 @@ flows
 
 	process implementation system_controller.impl
 	end system_controller.impl;
-	process implementation system_controller.agv
-	end system_controller.agv;
 
-	
 	process target_identification
 	features
 	media_in : in data port;
@@ -174,7 +172,7 @@ flows
 
 	process implementation target_identification.impl
 	end target_identification.impl;
-	
+
 	process target_operation
 	features
 	mission_data_in : in data port;
@@ -188,7 +186,7 @@ flows
 
 	process implementation target_operation.impl
 	end target_operation.impl;
-	
+
 	process mission_result_handler
 	features
 		mission_results : out data port;
@@ -202,7 +200,7 @@ end mission_result_handler;
 
 	process implementation mission_result_handler.impl
 	end mission_result_handler.impl;
-	
+
 	process implementation mission_result_handler.agv
 	end mission_result_handler.agv;
 
@@ -214,7 +212,7 @@ end mission_result_handler;
 
 	process implementation vehicle_state_result_handler.impl
 	end vehicle_state_result_handler.impl;
-	
+
 	process implementation vehicle_state_result_handler.agv
 	end vehicle_state_result_handler.agv;
 
@@ -227,6 +225,24 @@ end mission_result_handler;
 
 	process implementation disk_handler.impl
 	end disk_handler.impl;
-	
+
+	process implementation disk_handler.agv
+	end disk_handler.agv;
+
+	process system_controller_agv extends system_controller
+	features
+		weight_in : in data port;
+	end system_controller_agv;
+
+	process implementation system_controller_agv.impl
+	end system_controller_agv.impl;
+
+	process mission_provider
+	features
+		mission_data : in data port;
+		new_feature2 : in out data port;
+		mission_control : in event port;
+		control_feedback : out event data port;
+	end mission_provider;
 
 end processes_ARR_AGV;
