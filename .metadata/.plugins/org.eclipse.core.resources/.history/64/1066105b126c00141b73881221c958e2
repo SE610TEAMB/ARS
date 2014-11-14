@@ -111,7 +111,6 @@ with ARR_processes;
 		disk_handler : process processes_ARR_AGV::disk_handler.agv;
 		motor_handler : process processes_ARR_AGV::actuator_handler.motor;
 		Mission_controler : process processes_ARR_AGV::mission_controller_agv.impl;
-		ARR_H264_encoder : processor;
 	connections
 		new_connection : port radar_in -> radar_handler.sensor_data;
 		new_connection2 : port GPS_in -> GPS_handler.sensor_data;

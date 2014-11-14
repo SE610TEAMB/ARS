@@ -37,7 +37,7 @@ features
 		weight : device devices::Sensor.weight;
 		camera : device devices::Sensor.camera;
 		microphone : device devices::Sensor.microphone;
-		disk_backup : device devices::Disk.impl;
+		disk_backup : device;
 	connections
 		position : port AGV_GPS.position_info -> AGV_mission_processing.GPS_in;
 		new_connection6 : port radar.data_out -> AGV_mission_processing.radar_in;
@@ -60,8 +60,6 @@ features
 		new_connection18 : port AGV_mission_processing.door_signal -> door.control_in;
 		new_connection19 : port weight.data_out -> AGV_mission_processing.weight_in;
 		new_connection20 : port camera.data_out -> AGV_mission_processing.camera_in;
-		new_connection21 : port AGV_mission_processing.data_out_disk -> disk_backup.data_in;
-		new_connection22 : port microphone.data_out -> AGV_mission_processing.microphone_in;
 	end AGVs.impl;
 
 	system ARRs_Ground

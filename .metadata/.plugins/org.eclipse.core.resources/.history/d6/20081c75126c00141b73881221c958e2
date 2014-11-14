@@ -3661,7 +3661,7 @@
         <properties key="side" value="right"/>
         <properties key="is_ghost" value="false"/>
         <properties key="layout_side" value="right"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="99" height="36" x="248" y="358"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="99" height="36" x="248" y="395"/>
         <anchors xsi:type="pi:ChopboxAnchor">
           <properties key="name" value="chopbox"/>
         </anchors>
@@ -3706,7 +3706,7 @@
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
       <properties key="is_layed_out" value="true"/>
-      <properties key="independentObject" value="subcomponent AGV_subsystems::mission_processing.impl.ARR_H264_encoder"/>
+      <properties key="independentObject" value="subcomponent AGV_subsystems::mission_processing.impl.ARR_H264_ecnoder"/>
       <properties key="is_ghost" value="false"/>
       <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="157" height="50" x="345" y="30" style="//@styles.0/@styles.4">
         <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.4">
@@ -3729,8 +3729,8 @@
         <properties key="name" value="chopbox"/>
       </anchors>
       <children visible="true">
-        <properties key="independentObject" value="subcomponent AGV_subsystems::mission_processing.impl.ARR_H264_encoder"/>
-        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="157" height="20" style="//@styles.2" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="ARR_H264_encoder"/>
+        <properties key="independentObject" value="subcomponent AGV_subsystems::mission_processing.impl.ARR_H264_ecnoder"/>
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="157" height="20" style="//@styles.2" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="ARR_H264_ecnoder"/>
       </children>
       <children visible="true">
         <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="157" height="20" y="16" style="//@styles.2" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value=""/>

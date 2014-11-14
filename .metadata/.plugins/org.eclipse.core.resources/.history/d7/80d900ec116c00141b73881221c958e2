@@ -3276,8 +3276,8 @@
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="independentObject" value="subcomponent AGV_subsystems::mission_processing.impl.new_subcomponent"/>
       <properties key="is_layed_out" value="true"/>
-      <properties key="independentObject" value="subcomponent AGV_subsystems::mission_processing.impl.Mission_controler"/>
       <properties key="is_ghost" value="false"/>
       <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="347" height="496" x="1280" y="254" style="//@styles.0/@styles.1/@styles.0">
         <points x="20"/>
@@ -3410,8 +3410,8 @@
       </children>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="independentObject" value="feature processes_ARR_AGV::mission_controller_agv.mission_result_arr"/>
-        <properties key="side" value="right"/>
         <properties key="is_ghost" value="false"/>
+        <properties key="side" value="right"/>
         <properties key="layout_side" value="right"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="120" height="26" x="227" y="235"/>
         <anchors xsi:type="pi:ChopboxAnchor">
@@ -3446,6 +3446,46 @@
           <properties key="independentObject" value="feature processes_ARR_AGV::mission_controller_agv.mission_result_arr"/>
           <properties key="name" value="label"/>
           <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="115" height="16" style="//@styles.2" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="mission_result_arr"/>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="independentObject" value="feature processes_ARR_AGV::mission_controller_agv.vehicle_status_arr"/>
+        <properties key="side" value="right"/>
+        <properties key="is_ghost" value="false"/>
+        <properties key="layout_side" value="right"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="119" height="26" x="228" y="150"/>
+        <anchors xsi:type="pi:ChopboxAnchor">
+          <properties key="name" value="chopbox"/>
+        </anchors>
+        <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
+          <properties key="name" value="innerConnector"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
+          <location x="104" y="21"/>
+        </anchors>
+        <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
+          <properties key="name" value="outerConnector"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
+          <location x="119" y="21"/>
+        </anchors>
+        <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
+          <properties key="name" value="flowSpecification"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
+          <location x="54" y="21"/>
+        </anchors>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <properties key="name" value="feature"/>
+          <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="15" height="10" x="104" y="16" style="//@styles.1">
+            <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="15" height="10" style="//@styles.1">
+              <points x="15"/>
+              <points y="5"/>
+              <points x="15" y="10"/>
+            </graphicsAlgorithmChildren>
+          </graphicsAlgorithm>
+        </children>
+        <children visible="true">
+          <properties key="independentObject" value="feature processes_ARR_AGV::mission_controller_agv.vehicle_status_arr"/>
+          <properties key="name" value="label"/>
+          <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="114" height="16" style="//@styles.2" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="vehicle_status_arr"/>
         </children>
       </children>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
@@ -3573,8 +3613,8 @@
       </children>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="independentObject" value="feature processes_ARR_AGV::mission_controller_agv.mission_control_arr"/>
-        <properties key="side" value="right"/>
         <properties key="is_ghost" value="false"/>
+        <properties key="side" value="right"/>
         <properties key="layout_side" value="right"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="129" height="36" x="218" y="186"/>
         <anchors xsi:type="pi:ChopboxAnchor">
@@ -3661,7 +3701,7 @@
         <properties key="side" value="right"/>
         <properties key="is_ghost" value="false"/>
         <properties key="layout_side" value="right"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="99" height="36" x="248" y="358"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="99" height="36" x="248" y="395"/>
         <anchors xsi:type="pi:ChopboxAnchor">
           <properties key="name" value="chopbox"/>
         </anchors>
@@ -3697,43 +3737,11 @@
         </children>
       </children>
       <children visible="true">
-        <properties key="independentObject" value="subcomponent AGV_subsystems::mission_processing.impl.Mission_controler"/>
-        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="347" height="20" style="//@styles.2" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Mission_controler"/>
+        <properties key="independentObject" value="subcomponent AGV_subsystems::mission_processing.impl.new_subcomponent"/>
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="347" height="20" style="//@styles.2" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="new_subcomponent"/>
       </children>
       <children visible="true">
         <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="347" height="20" y="16" style="//@styles.2" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="processes_ARR_AGV::mission_controller_agv.impl"/>
-      </children>
-    </children>
-    <children xsi:type="pi:ContainerShape" visible="true" active="true">
-      <properties key="is_layed_out" value="true"/>
-      <properties key="independentObject" value="subcomponent AGV_subsystems::mission_processing.impl.ARR_H264_encoder"/>
-      <properties key="is_ghost" value="false"/>
-      <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="157" height="50" x="345" y="30" style="//@styles.0/@styles.4">
-        <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.4">
-          <points y="12"/>
-          <points x="147" y="12"/>
-          <points x="157"/>
-        </graphicsAlgorithmChildren>
-        <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.0/@styles.4">
-          <points x="147" y="12"/>
-          <points x="147" y="50"/>
-        </graphicsAlgorithmChildren>
-        <points y="50"/>
-        <points y="12"/>
-        <points x="10"/>
-        <points x="157"/>
-        <points x="157" y="38"/>
-        <points x="147" y="50"/>
-      </graphicsAlgorithm>
-      <anchors xsi:type="pi:ChopboxAnchor">
-        <properties key="name" value="chopbox"/>
-      </anchors>
-      <children visible="true">
-        <properties key="independentObject" value="subcomponent AGV_subsystems::mission_processing.impl.ARR_H264_encoder"/>
-        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="157" height="20" style="//@styles.2" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="ARR_H264_encoder"/>
-      </children>
-      <children visible="true">
-        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="157" height="20" y="16" style="//@styles.2" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value=""/>
       </children>
     </children>
   </children>
@@ -4419,7 +4427,7 @@
       <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" x="5" y="10" style="//@styles.2" font="//@fonts.1" value="new_connection32"/>
     </connectionDecorators>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@children.37/@children.5/@anchors.1" end="//@children.0/@children.37/@children.5/@anchors.3">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@children.37/@children.6/@anchors.1" end="//@children.0/@children.37/@children.6/@anchors.3">
     <properties key="independentObject" value="flow_specification processes_ARR_AGV::mission_controller_agv.new_flow_spec"/>
     <properties key="is_ghost" value="false"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.3"/>
@@ -4463,7 +4471,7 @@
       <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" x="54" y="4" style="//@styles.2" font="//@fonts.1" value="new_fow_spec2"/>
     </connectionDecorators>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@children.24/@children.3/@anchors.2" end="//@children.0/@children.37/@children.9/@anchors.2">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@children.24/@children.3/@anchors.2" end="//@children.0/@children.37/@children.10/@anchors.2">
     <properties key="independentObject" value="connection AGV_subsystems::mission_processing.impl.new_connection33"/>
     <properties key="is_ghost" value="false"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.4"/>
@@ -4472,7 +4480,7 @@
       <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" x="5" y="10" style="//@styles.2" font="//@fonts.1" value="new_connection33"/>
     </connectionDecorators>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@children.37/@children.8/@anchors.2" end="//@children.0/@children.24/@children.1/@anchors.2">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@children.37/@children.9/@anchors.2" end="//@children.0/@children.24/@children.1/@anchors.2">
     <properties key="independentObject" value="connection AGV_subsystems::mission_processing.impl.new_connection34"/>
     <properties key="is_ghost" value="false"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.4"/>
@@ -4511,7 +4519,7 @@
       <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" x="5" y="10" style="//@styles.2" font="//@fonts.1" value="new_connection37"/>
     </connectionDecorators>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@children.37/@children.7/@anchors.2" end="//@children.0/@children.22/@children.3/@anchors.2">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@children.37/@children.8/@anchors.2" end="//@children.0/@children.22/@children.3/@anchors.2">
     <properties key="independentObject" value="connection AGV_subsystems::mission_processing.impl.new_connection38"/>
     <properties key="is_ghost" value="false"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.4"/>
@@ -4520,7 +4528,7 @@
       <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" x="5" y="10" style="//@styles.2" font="//@fonts.1" value="new_connection38"/>
     </connectionDecorators>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@children.32/@children.3/@anchors.2" end="//@children.0/@children.37/@children.4/@anchors.2">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@children.32/@children.3/@anchors.2" end="//@children.0/@children.37/@children.5/@anchors.2">
     <properties key="independentObject" value="connection AGV_subsystems::mission_processing.impl.new_connection39"/>
     <properties key="is_ghost" value="false"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.4"/>
@@ -4529,7 +4537,7 @@
       <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" x="5" y="10" style="//@styles.2" font="//@fonts.1" value="new_connection39"/>
     </connectionDecorators>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@children.37/@children.6/@anchors.2" end="//@children.0/@children.32/@children.6/@anchors.2">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@children.37/@children.7/@anchors.2" end="//@children.0/@children.32/@children.6/@anchors.2">
     <properties key="independentObject" value="connection AGV_subsystems::mission_processing.impl.new_connection40"/>
     <properties key="is_ghost" value="false"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.4"/>
@@ -4538,7 +4546,7 @@
       <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" x="5" y="10" style="//@styles.2" font="//@fonts.1" value="new_connection40"/>
     </connectionDecorators>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@children.21/@children.3/@anchors.2" end="//@children.0/@children.37/@children.5/@anchors.2">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@children.21/@children.3/@anchors.2" end="//@children.0/@children.37/@children.6/@anchors.2">
     <properties key="independentObject" value="connection AGV_subsystems::mission_processing.impl.new_connection41"/>
     <properties key="is_ghost" value="false"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.4"/>
@@ -4551,7 +4559,6 @@
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@children.23/@children.2/@anchors.2" end="//@children.0/@children.37/@children.3/@anchors.2">
     <properties key="independentObject" value="connection AGV_subsystems::mission_processing.impl.new_connection42"/>
-    <properties key="is_ghost" value="false"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.4"/>
     <connectionDecorators visible="true" active="true" locationRelative="true" location="0.5">
       <properties key="independentObject" value="connection AGV_subsystems::mission_processing.impl.new_connection42"/>
