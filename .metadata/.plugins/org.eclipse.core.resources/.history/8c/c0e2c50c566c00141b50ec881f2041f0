@@ -145,6 +145,7 @@ with ARR_processes;
 		new_connection7 : port camera_in -> media_handler.vedio_in;
 		new_connection9 : port microphone_in -> media_handler.audio_in;
 		new_connection13 : port GPS_handler.data_out -> system_controller.GPS_in;
+		new_connection15 : port GPS_handler.data_out -> Navigation.GPS_in;
 		new_connection16 : port radar_handler.data_out -> Navigation.radar_in;
 		new_connection17 : port system_controller.state_result_out -> vehicle_status_handler.state_result_in;
 		new_connection23 : port Navigation.motor_cmd -> motor_handler.cmd;
@@ -170,7 +171,6 @@ with ARR_processes;
 	new_connection3 : port battery_backup -> battery_handler.backup_in;
 	new_connection10 : port battery_handler.info_out -> system_controller.battery_in;
 		new_connection22 : port system_controller.streaming_states -> mission_result_handler.streaming_states;
-	new_connection11 : port mission_result_handler.mission_results -> mission_results_amc;
-end mission_processing.impl;
+	end mission_processing.impl;
 
 end AGV_subsystems;

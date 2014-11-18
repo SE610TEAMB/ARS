@@ -88,7 +88,6 @@ public
 		mission_data_amc : out data port;
 		mission_control_acm : out event port;
 		input_output : feature group;
-		failure_signal : out event port;
 	flows
 		new_flow_spec : flow path vehicle_state_amc -> input_output;
 		new_flow_spec2 : flow path mission_results_amc -> input_output;

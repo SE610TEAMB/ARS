@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_JNAaUGu4EeSrYsjfcHyprg" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_JNAaUWu4EeSrYsjfcHyprg" bindingContexts="_JNC3Omu4EeSrYsjfcHyprg">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.osate.xtext.aadl2.Aadl2&quot; name=&quot;AGV_subsystems.aadl&quot; tooltip=&quot;ARS/packages/AGV_subsystems.aadl&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ARS/packages/AGV_subsystems.aadl&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.graphiti.ui.editor.DiagramEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;platform:/resource/ARS/diagrams/ff02644e-dbc1-43c0-a59d-1e60a4a34d93.aadl_diagram#/0&quot; tooltip=&quot;platform:/resource/ARS/diagrams/ff02644e-dbc1-43c0-a59d-1e60a4a34d93.aadl_diagram#/0&quot;>&#xD;&#xA;&lt;persistable org.eclipse.graphiti.providerId=&quot;org.osate.ge.aadlComponentImplementationDiagramTypeProvider&quot; org.eclipse.graphiti.uri=&quot;platform:/resource/ARS/diagrams/ff02644e-dbc1-43c0-a59d-1e60a4a34d93.aadl_diagram#/0&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.graphiti.ui.editor.DiagramEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;platform:/resource/ARS/diagrams/AGV/7e5f71b8-a503-4f5d-9958-b082f09f91a2.aadl_diagram#/0&quot; tooltip=&quot;platform:/resource/ARS/diagrams/AGV/7e5f71b8-a503-4f5d-9958-b082f09f91a2.aadl_diagram#/0&quot;>&#xD;&#xA;&lt;persistable org.eclipse.graphiti.providerId=&quot;org.osate.ge.aadlPackageDiagramTypeProvider&quot; org.eclipse.graphiti.uri=&quot;platform:/resource/ARS/diagrams/AGV/7e5f71b8-a503-4f5d-9958-b082f09f91a2.aadl_diagram#/0&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.graphiti.ui.editor.DiagramEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;platform:/resource/ARS/diagrams/AGV/13dfdc73-a6e0-4b98-a9ad-e9984d23f937.aadl_diagram#/0&quot; tooltip=&quot;platform:/resource/ARS/diagrams/AGV/13dfdc73-a6e0-4b98-a9ad-e9984d23f937.aadl_diagram#/0&quot;>&#xD;&#xA;&lt;persistable org.eclipse.graphiti.providerId=&quot;org.osate.ge.aadlTypeDiagramTypeProvider&quot; org.eclipse.graphiti.uri=&quot;platform:/resource/ARS/diagrams/AGV/13dfdc73-a6e0-4b98-a9ad-e9984d23f937.aadl_diagram#/0&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;7e5f71b8-a503-4f5d-9958-b082f09f91a2.aadl_diagram&quot; tooltip=&quot;ARS/diagrams/AGV/7e5f71b8-a503-4f5d-9958-b082f09f91a2.aadl_diagram&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ARS/diagrams/AGV/7e5f71b8-a503-4f5d-9958-b082f09f91a2.aadl_diagram&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.graphiti.ui.editor.DiagramEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;platform:/resource/ARS/diagrams/589fb5ea-b1c3-4c4c-b7b2-166e678ced8c.aadl_diagram#/0&quot; tooltip=&quot;platform:/resource/ARS/diagrams/589fb5ea-b1c3-4c4c-b7b2-166e678ced8c.aadl_diagram#/0&quot;>&#xD;&#xA;&lt;persistable org.eclipse.graphiti.providerId=&quot;org.osate.ge.aadlTypeDiagramTypeProvider&quot; org.eclipse.graphiti.uri=&quot;platform:/resource/ARS/diagrams/589fb5ea-b1c3-4c4c-b7b2-166e678ced8c.aadl_diagram#/0&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.graphiti.ui.editor.DiagramEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;platform:/resource/ARS/diagrams/76b788fa-7ca0-4140-b67c-85481efce9d3.aadl_diagram#/0&quot; tooltip=&quot;platform:/resource/ARS/diagrams/76b788fa-7ca0-4140-b67c-85481efce9d3.aadl_diagram#/0&quot;>&#xD;&#xA;&lt;persistable org.eclipse.graphiti.providerId=&quot;org.osate.ge.aadlTypeDiagramTypeProvider&quot; org.eclipse.graphiti.uri=&quot;platform:/resource/ARS/diagrams/76b788fa-7ca0-4140-b67c-85481efce9d3.aadl_diagram#/0&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.osate.xtext.aadl2.Aadl2&quot; name=&quot;processes_ARR_AGV.aadl&quot; tooltip=&quot;ARS/packages/processes_ARR_AGV.aadl&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ARS/packages/processes_ARR_AGV.aadl&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.osate.xtext.aadl2.Aadl2&quot; name=&quot;AGV_runtime.aadl&quot; tooltip=&quot;ARS/packages/AGV_runtime.aadl&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ARS/packages/AGV_runtime.aadl&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.graphiti.ui.editor.DiagramEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;platform:/resource/ARS/diagrams/03ffbe2c-23ae-43b8-87ac-ad5ddcd047a5.aadl_diagram#/0&quot; tooltip=&quot;platform:/resource/ARS/diagrams/03ffbe2c-23ae-43b8-87ac-ad5ddcd047a5.aadl_diagram#/0&quot;>&#xD;&#xA;&lt;persistable org.eclipse.graphiti.providerId=&quot;org.osate.ge.aadlComponentImplementationDiagramTypeProvider&quot; org.eclipse.graphiti.uri=&quot;platform:/resource/ARS/diagrams/03ffbe2c-23ae-43b8-87ac-ad5ddcd047a5.aadl_diagram#/0&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.graphiti.ui.editor.DiagramEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;platform:/resource/ARS/diagrams/1a8616e5-0caa-4484-95fc-d0a00df671c7.aadl_diagram#/0&quot; tooltip=&quot;platform:/resource/ARS/diagrams/1a8616e5-0caa-4484-95fc-d0a00df671c7.aadl_diagram#/0&quot;>&#xD;&#xA;&lt;persistable org.eclipse.graphiti.providerId=&quot;org.osate.ge.aadlTypeDiagramTypeProvider&quot; org.eclipse.graphiti.uri=&quot;platform:/resource/ARS/diagrams/1a8616e5-0caa-4484-95fc-d0a00df671c7.aadl_diagram#/0&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.graphiti.ui.editor.DiagramEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;platform:/resource/ARS/diagrams/548ddae9-ebcf-4083-8aa9-cbdafe049d70.aadl_diagram#/0&quot; tooltip=&quot;platform:/resource/ARS/diagrams/548ddae9-ebcf-4083-8aa9-cbdafe049d70.aadl_diagram#/0&quot;>&#xD;&#xA;&lt;persistable org.eclipse.graphiti.providerId=&quot;org.osate.ge.aadlTypeDiagramTypeProvider&quot; org.eclipse.graphiti.uri=&quot;platform:/resource/ARS/diagrams/548ddae9-ebcf-4083-8aa9-cbdafe049d70.aadl_diagram#/0&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.graphiti.ui.editor.DiagramEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;platform:/resource/ARS/diagrams/6baa3cc9-a91b-400b-b34b-0d1a515d1bd3.aadl_diagram#/0&quot; tooltip=&quot;platform:/resource/ARS/diagrams/6baa3cc9-a91b-400b-b34b-0d1a515d1bd3.aadl_diagram#/0&quot;>&#xD;&#xA;&lt;persistable org.eclipse.graphiti.providerId=&quot;org.osate.ge.aadlPackageDiagramTypeProvider&quot; org.eclipse.graphiti.uri=&quot;platform:/resource/ARS/diagrams/6baa3cc9-a91b-400b-b34b-0d1a515d1bd3.aadl_diagram#/0&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;6baa3cc9-a91b-400b-b34b-0d1a515d1bd3.aadl_diagram&quot; tooltip=&quot;ARS/diagrams/6baa3cc9-a91b-400b-b34b-0d1a515d1bd3.aadl_diagram&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ARS/diagrams/6baa3cc9-a91b-400b-b34b-0d1a515d1bd3.aadl_diagram&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;4822114f-3723-4728-ad3a-ea45bba7b56a.aadl_diagram&quot; tooltip=&quot;ARS/diagrams/AGV/runtime/4822114f-3723-4728-ad3a-ea45bba7b56a.aadl_diagram&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ARS/diagrams/AGV/runtime/4822114f-3723-4728-ad3a-ea45bba7b56a.aadl_diagram&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.graphiti.ui.editor.DiagramEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;platform:/resource/ARS/diagrams/ff02644e-dbc1-43c0-a59d-1e60a4a34d93.aadl_diagram#/0&quot; tooltip=&quot;platform:/resource/ARS/diagrams/ff02644e-dbc1-43c0-a59d-1e60a4a34d93.aadl_diagram#/0&quot;>&#xD;&#xA;&lt;persistable org.eclipse.graphiti.providerId=&quot;org.osate.ge.aadlComponentImplementationDiagramTypeProvider&quot; org.eclipse.graphiti.uri=&quot;platform:/resource/ARS/diagrams/ff02644e-dbc1-43c0-a59d-1e60a4a34d93.aadl_diagram#/0&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.graphiti.ui.editor.DiagramEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;platform:/resource/ARS/diagrams/AGV/7e5f71b8-a503-4f5d-9958-b082f09f91a2.aadl_diagram#/0&quot; tooltip=&quot;platform:/resource/ARS/diagrams/AGV/7e5f71b8-a503-4f5d-9958-b082f09f91a2.aadl_diagram#/0&quot;>&#xD;&#xA;&lt;persistable org.eclipse.graphiti.providerId=&quot;org.osate.ge.aadlPackageDiagramTypeProvider&quot; org.eclipse.graphiti.uri=&quot;platform:/resource/ARS/diagrams/AGV/7e5f71b8-a503-4f5d-9958-b082f09f91a2.aadl_diagram#/0&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.osate.xtext.aadl2.Aadl2&quot; name=&quot;AGV_subsystems.aadl&quot; tooltip=&quot;ARS/packages/AGV_subsystems.aadl&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ARS/packages/AGV_subsystems.aadl&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.osate.xtext.aadl2.Aadl2&quot; name=&quot;processes_ARR_AGV.aadl&quot; tooltip=&quot;ARS/packages/processes_ARR_AGV.aadl&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ARS/packages/processes_ARR_AGV.aadl&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;7e5f71b8-a503-4f5d-9958-b082f09f91a2.aadl_diagram&quot; tooltip=&quot;ARS/diagrams/AGV/7e5f71b8-a503-4f5d-9958-b082f09f91a2.aadl_diagram&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ARS/diagrams/AGV/7e5f71b8-a503-4f5d-9958-b082f09f91a2.aadl_diagram&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;6baa3cc9-a91b-400b-b34b-0d1a515d1bd3.aadl_diagram&quot; tooltip=&quot;ARS/diagrams/6baa3cc9-a91b-400b-b34b-0d1a515d1bd3.aadl_diagram&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ARS/diagrams/6baa3cc9-a91b-400b-b34b-0d1a515d1bd3.aadl_diagram&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;f6b76f74-d2cf-44aa-a830-cf33baf02dcf.aadl_diagram&quot; tooltip=&quot;ARS/diagrams/devices/f6b76f74-d2cf-44aa-a830-cf33baf02dcf.aadl_diagram&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ARS/diagrams/devices/f6b76f74-d2cf-44aa-a830-cf33baf02dcf.aadl_diagram&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;a10a3810-33c2-4b07-942c-9a869aa592b2.aadl_diagram&quot; tooltip=&quot;ARS/diagrams/devices/a10a3810-33c2-4b07-942c-9a869aa592b2.aadl_diagram&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ARS/diagrams/devices/a10a3810-33c2-4b07-942c-9a869aa592b2.aadl_diagram&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.graphiti.ui.editor.DiagramEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;platform:/resource/ARS/diagrams/systems/dd5308ee-0938-4ad4-bc7f-5eec3db94b86.aadl_diagram#/0&quot; tooltip=&quot;platform:/resource/ARS/diagrams/systems/dd5308ee-0938-4ad4-bc7f-5eec3db94b86.aadl_diagram#/0&quot;>&#xD;&#xA;&lt;persistable org.eclipse.graphiti.providerId=&quot;org.osate.ge.aadlComponentImplementationDiagramTypeProvider&quot; org.eclipse.graphiti.uri=&quot;platform:/resource/ARS/diagrams/systems/dd5308ee-0938-4ad4-bc7f-5eec3db94b86.aadl_diagram#/0&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.graphiti.ui.editor.DiagramEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;platform:/resource/ARS/diagrams/AGV/13dfdc73-a6e0-4b98-a9ad-e9984d23f937.aadl_diagram#/0&quot; tooltip=&quot;platform:/resource/ARS/diagrams/AGV/13dfdc73-a6e0-4b98-a9ad-e9984d23f937.aadl_diagram#/0&quot;>&#xD;&#xA;&lt;persistable org.eclipse.graphiti.providerId=&quot;org.osate.ge.aadlTypeDiagramTypeProvider&quot; org.eclipse.graphiti.uri=&quot;platform:/resource/ARS/diagrams/AGV/13dfdc73-a6e0-4b98-a9ad-e9984d23f937.aadl_diagram#/0&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.graphiti.ui.editor.DiagramEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;platform:/resource/ARS/diagrams/589fb5ea-b1c3-4c4c-b7b2-166e678ced8c.aadl_diagram#/0&quot; tooltip=&quot;platform:/resource/ARS/diagrams/589fb5ea-b1c3-4c4c-b7b2-166e678ced8c.aadl_diagram#/0&quot;>&#xD;&#xA;&lt;persistable org.eclipse.graphiti.providerId=&quot;org.osate.ge.aadlTypeDiagramTypeProvider&quot; org.eclipse.graphiti.uri=&quot;platform:/resource/ARS/diagrams/589fb5ea-b1c3-4c4c-b7b2-166e678ced8c.aadl_diagram#/0&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.graphiti.ui.editor.DiagramEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;platform:/resource/ARS/diagrams/76b788fa-7ca0-4140-b67c-85481efce9d3.aadl_diagram#/0&quot; tooltip=&quot;platform:/resource/ARS/diagrams/76b788fa-7ca0-4140-b67c-85481efce9d3.aadl_diagram#/0&quot;>&#xD;&#xA;&lt;persistable org.eclipse.graphiti.providerId=&quot;org.osate.ge.aadlTypeDiagramTypeProvider&quot; org.eclipse.graphiti.uri=&quot;platform:/resource/ARS/diagrams/76b788fa-7ca0-4140-b67c-85481efce9d3.aadl_diagram#/0&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.osate.xtext.aadl2.Aadl2&quot; name=&quot;AGV_runtime.aadl&quot; tooltip=&quot;ARS/packages/AGV_runtime.aadl&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ARS/packages/AGV_runtime.aadl&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.graphiti.ui.editor.DiagramEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;platform:/resource/ARS/diagrams/03ffbe2c-23ae-43b8-87ac-ad5ddcd047a5.aadl_diagram#/0&quot; tooltip=&quot;platform:/resource/ARS/diagrams/03ffbe2c-23ae-43b8-87ac-ad5ddcd047a5.aadl_diagram#/0&quot;>&#xD;&#xA;&lt;persistable org.eclipse.graphiti.providerId=&quot;org.osate.ge.aadlComponentImplementationDiagramTypeProvider&quot; org.eclipse.graphiti.uri=&quot;platform:/resource/ARS/diagrams/03ffbe2c-23ae-43b8-87ac-ad5ddcd047a5.aadl_diagram#/0&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.graphiti.ui.editor.DiagramEditorInputFactory&quot; id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot; name=&quot;platform:/resource/ARS/diagrams/1a8616e5-0caa-4484-95fc-d0a00df671c7.aadl_diagram#/0&quot; tooltip=&quot;platform:/resource/ARS/diagrams/1a8616e5-0caa-4484-95fc-d0a00df671c7.aadl_diagram#/0&quot;>&#xD;&#xA;&lt;persistable org.eclipse.graphiti.providerId=&quot;org.osate.ge.aadlTypeDiagramTypeProvider&quot; org.eclipse.graphiti.uri=&quot;platform:/resource/ARS/diagrams/1a8616e5-0caa-4484-95fc-d0a00df671c7.aadl_diagram#/0&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_JNAaUWu4EeSrYsjfcHyprg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_JNAaUmu4EeSrYsjfcHyprg" label="%trimmedwindow.label.eclipseSDK" x="255" y="0" width="960" height="1032">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_JNAaUWu4EeSrYsjfcHyprg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_JNAaUmu4EeSrYsjfcHyprg" label="%trimmedwindow.label.eclipseSDK" x="513" y="0" width="1407" height="1032">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
@@ -147,15 +147,27 @@
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_C64FwGw4EeSnWMl93aKCwQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="AGV_subsystems.aadl" tooltip="ARS/packages/AGV_subsystems.aadl" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.osate.xtext.aadl2.Aadl2&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ARS/packages/AGV_subsystems.aadl&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;8423&quot; selectionTopPixel=&quot;2683&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.osate.xtext.aadl2.Aadl2&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/ARS/packages/AGV_subsystems.aadl&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;8356&quot; selectionTopPixel=&quot;2225&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.osate.xtext.aadl2.Aadl2</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_f0zVEGxREeSC04cUduuErg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="devices::Transceiver_collect.impl" tooltip="devices::Transceiver_collect.impl" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.graphiti.ui.editor.DiagramEditorInputFactory&quot; org.eclipse.graphiti.providerId=&quot;org.osate.ge.aadlComponentImplementationDiagramTypeProvider&quot; org.eclipse.graphiti.uri=&quot;platform:/resource/ARS/diagrams/devices/a10a3810-33c2-4b07-942c-9a869aa592b2.aadl_diagram#/0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.osate.ge.editor.AgeDiagramEditor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_iEVHsGxREeSC04cUduuErg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="devices::Transceiver_collect" tooltip="devices::Transceiver_collect" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.osate.ge.editor.AgeDiagramEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.graphiti.ui.editor.DiagramEditorInputFactory&quot; org.eclipse.graphiti.providerId=&quot;org.osate.ge.aadlTypeDiagramTypeProvider&quot; org.eclipse.graphiti.uri=&quot;platform:/resource/ARS/diagrams/devices/f6b76f74-d2cf-44aa-a830-cf33baf02dcf.aadl_diagram#/0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.osate.ge.editor.AgeDiagramEditor</tags>
           <tags>removeOnHide</tags>
         </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_JNBpY2u4EeSrYsjfcHyprg" elementId="org.osate.ui.navigator.AadlNavigator" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="AADL Navigator" iconURI="platform:/plugin/org.osate.ui/icons/aadlNav.gif" tooltip="" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view LINK_NAVIGATOR_TO_EDITOR=&quot;0&quot; sorter=&quot;1&quot;>&#xD;&#xA;&lt;filters>&#xD;&#xA;&lt;filter element=&quot;*.class&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;.*&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;/filters>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;element path=&quot;/ARS&quot;/>&#xD;&#xA;&lt;element path=&quot;/ARS/packages&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;selection>&#xD;&#xA;&lt;element path=&quot;/ARS/packages/AGV_subsystems.aadl&quot;/>&#xD;&#xA;&lt;/selection>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view LINK_NAVIGATOR_TO_EDITOR=&quot;0&quot; sorter=&quot;1&quot;>&#xD;&#xA;&lt;filters>&#xD;&#xA;&lt;filter element=&quot;*.class&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;filter element=&quot;.*&quot; isEnabled=&quot;false&quot;/>&#xD;&#xA;&lt;/filters>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;element path=&quot;/ARS&quot;/>&#xD;&#xA;&lt;element path=&quot;/ARS/diagrams&quot;/>&#xD;&#xA;&lt;element path=&quot;/ARS/diagrams/AGV&quot;/>&#xD;&#xA;&lt;element path=&quot;/ARS/packages&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;selection>&#xD;&#xA;&lt;element path=&quot;/ARS/packages/AGV_subsystems.aadl&quot;/>&#xD;&#xA;&lt;/selection>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:AADL</tags>
       <menus xmi:id="_JNBpZGu4EeSrYsjfcHyprg" elementId="org.osate.ui.navigator.AadlNavigator">
@@ -209,7 +221,7 @@
       <tags>categoryTag:General</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_JNBpl2u4EeSrYsjfcHyprg" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.gif" tooltip="0 items" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Errors&quot;/>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Errors (3 items)&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;75&quot; org.eclipse.ui.ide.markerType=&quot;75&quot; org.eclipse.ui.ide.pathField=&quot;100&quot; org.eclipse.ui.ide.resourceField=&quot;75&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;687&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xD;&#xA;&lt;expanded>&#xD;&#xA;&lt;category IMemento.internal.id=&quot;Errors (3 items)&quot;/>&#xD;&#xA;&lt;/expanded>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;75&quot; org.eclipse.ui.ide.markerType=&quot;75&quot; org.eclipse.ui.ide.pathField=&quot;100&quot; org.eclipse.ui.ide.resourceField=&quot;75&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;687&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_JNBpmGu4EeSrYsjfcHyprg" elementId="org.eclipse.ui.views.ProblemView">
@@ -305,19 +317,19 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNBpu2u4EeSrYsjfcHyprg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xkGAIGw3EeSnWMl93aKCwQ" elementId="new.group"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xkGAIWw3EeSnWMl93aKCwQ" elementId="newWizardDropDown"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xkGAImw3EeSnWMl93aKCwQ" elementId="new.ext" visible="false"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xkGAI2w3EeSnWMl93aKCwQ" elementId="save.group" visible="false"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xkGAJGw3EeSnWMl93aKCwQ" elementId="save"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xkGAJWw3EeSnWMl93aKCwQ" elementId="saveAll"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xkGAJmw3EeSnWMl93aKCwQ" elementId="save.ext" visible="false"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_xkPKEGw3EeSnWMl93aKCwQ" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.gif" tooltip="Print" command="_JNEE3Wu4EeSrYsjfcHyprg"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xkPKEWw3EeSnWMl93aKCwQ" elementId="print.ext" visible="false"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xkPKEmw3EeSnWMl93aKCwQ" elementId="build.group"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xkPKE2w3EeSnWMl93aKCwQ" elementId="build"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xkPKFGw3EeSnWMl93aKCwQ" elementId="build.ext" visible="false"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xkPKFWw3EeSnWMl93aKCwQ" elementId="additions"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_V_X04G9uEeSOlLKPosvIbg" elementId="new.group"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_V_X04W9uEeSOlLKPosvIbg" elementId="newWizardDropDown"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_V_X04m9uEeSOlLKPosvIbg" elementId="new.ext" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_V_X0429uEeSOlLKPosvIbg" elementId="save.group" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_V_X05G9uEeSOlLKPosvIbg" elementId="save"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_V_X05W9uEeSOlLKPosvIbg" elementId="saveAll"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_V_X05m9uEeSOlLKPosvIbg" elementId="save.ext" visible="false"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_V_X0529uEeSOlLKPosvIbg" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.gif" tooltip="Print" command="_JNEE3Wu4EeSrYsjfcHyprg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_V_X06G9uEeSOlLKPosvIbg" elementId="print.ext" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_V_X06W9uEeSOlLKPosvIbg" elementId="build.group"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_V_X06m9uEeSOlLKPosvIbg" elementId="build"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_V_X0629uEeSOlLKPosvIbg" elementId="build.ext" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_V_X07G9uEeSOlLKPosvIbg" elementId="additions"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNBpyWu4EeSrYsjfcHyprg" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -325,13 +337,13 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNBp32u4EeSrYsjfcHyprg" elementId="org.eclipse.debug.ui.launchActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvsGw3EeSnWMl93aKCwQ" elementId="debug"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvsWw3EeSnWMl93aKCwQ" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkoG9uEeSOlLKPosvIbg" elementId="debug"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkoW9uEeSOlLKPosvIbg" elementId="org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNBp4mu4EeSrYsjfcHyprg" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvsmw3EeSnWMl93aKCwQ" elementId="Search"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvs2w3EeSnWMl93aKCwQ" elementId="org.eclipse.search.OpenSearchDialogPage"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkom9uEeSOlLKPosvIbg" elementId="Search"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKko29uEeSOlLKPosvIbg" elementId="org.eclipse.search.OpenSearchDialogPage"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNBp5Wu4EeSrYsjfcHyprg" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
         <tags>Draggable</tags>
@@ -342,112 +354,112 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNBp6mu4EeSrYsjfcHyprg" elementId="org.osate.analysis.architecture.actionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvtGw3EeSnWMl93aKCwQ" elementId="arch.toolbar"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvtWw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.architecture.actions.PropertyTotals.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvtmw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.architecture.actions.DoModelStatistics.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvt2w3EeSnWMl93aKCwQ" elementId="org.osate.analysis.architecture.actions.CheckInterModelConsistency.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvuGw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.architecture.actions.CheckA429PortConnectionConsistency.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvuWw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.architecture.actions.PortConnectionConsistency.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvumw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.architecture.actions.CheckConnectionBindingConsistency.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvu2w3EeSnWMl93aKCwQ" elementId="org.osate.analysis.architecture.actions.CheckRequiredConnection.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvvGw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.architecture.actions.CheckMissRate.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkpG9uEeSOlLKPosvIbg" elementId="arch.toolbar"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkpW9uEeSOlLKPosvIbg" elementId="org.osate.analysis.architecture.actions.PropertyTotals.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkpm9uEeSOlLKPosvIbg" elementId="org.osate.analysis.architecture.actions.DoModelStatistics.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkp29uEeSOlLKPosvIbg" elementId="org.osate.analysis.architecture.actions.CheckInterModelConsistency.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkqG9uEeSOlLKPosvIbg" elementId="org.osate.analysis.architecture.actions.CheckA429PortConnectionConsistency.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkqW9uEeSOlLKPosvIbg" elementId="org.osate.analysis.architecture.actions.PortConnectionConsistency.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkqm9uEeSOlLKPosvIbg" elementId="org.osate.analysis.architecture.actions.CheckConnectionBindingConsistency.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkq29uEeSOlLKPosvIbg" elementId="org.osate.analysis.architecture.actions.CheckRequiredConnection.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkrG9uEeSOlLKPosvIbg" elementId="org.osate.analysis.architecture.actions.CheckMissRate.action"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNBp9Gu4EeSrYsjfcHyprg" elementId="org.osate.analysis.arinc653.actionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvvWw3EeSnWMl93aKCwQ" elementId="arinc653.toolbar"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvvmw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.arinc653.actions.CheckConnectionsLatency.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvv2w3EeSnWMl93aKCwQ" elementId="org.osate.analysis.arinc653.actions.CheckConnections.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvwGw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.arinc653.actions.Refactor.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvwWw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.arinc653.actions.CheckConfiguration.actionMajorFrame"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvwmw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.arinc653.actions.CheckConfiguration.actionMemoryProperties"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvw2w3EeSnWMl93aKCwQ" elementId="org.osate.analysis.arinc653.actions.CheckConfiguration.actionMemoryDimension"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvxGw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.arinc653.actions.CheckConfiguration.actionPartitionBindings"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvxWw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.arinc653.actions.CheckConfiguration.actionPartitionExecution"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvxmw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.arinc653.actions.CheckConfiguration.actionConnectionCriticality"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvx2w3EeSnWMl93aKCwQ" elementId="org.osate.analysis.arinc653.actions.CheckConfiguration.actionPartitionCriticality"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvyGw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.arinc653.actions.CheckConfiguration.actionMemorySegments"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkrW9uEeSOlLKPosvIbg" elementId="arinc653.toolbar"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkrm9uEeSOlLKPosvIbg" elementId="org.osate.analysis.arinc653.actions.CheckConnectionsLatency.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkr29uEeSOlLKPosvIbg" elementId="org.osate.analysis.arinc653.actions.CheckConnections.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKksG9uEeSOlLKPosvIbg" elementId="org.osate.analysis.arinc653.actions.Refactor.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKksW9uEeSOlLKPosvIbg" elementId="org.osate.analysis.arinc653.actions.CheckConfiguration.actionMajorFrame"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKksm9uEeSOlLKPosvIbg" elementId="org.osate.analysis.arinc653.actions.CheckConfiguration.actionMemoryProperties"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKks29uEeSOlLKPosvIbg" elementId="org.osate.analysis.arinc653.actions.CheckConfiguration.actionMemoryDimension"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKktG9uEeSOlLKPosvIbg" elementId="org.osate.analysis.arinc653.actions.CheckConfiguration.actionPartitionBindings"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKktW9uEeSOlLKPosvIbg" elementId="org.osate.analysis.arinc653.actions.CheckConfiguration.actionPartitionExecution"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKktm9uEeSOlLKPosvIbg" elementId="org.osate.analysis.arinc653.actions.CheckConfiguration.actionConnectionCriticality"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkt29uEeSOlLKPosvIbg" elementId="org.osate.analysis.arinc653.actions.CheckConfiguration.actionPartitionCriticality"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkuG9uEeSOlLKPosvIbg" elementId="org.osate.analysis.arinc653.actions.CheckConfiguration.actionMemorySegments"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNBqAWu4EeSrYsjfcHyprg" elementId="org.osate.analysis.fault.actionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvyWw3EeSnWMl93aKCwQ" elementId="fault.toolbar"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvymw3EeSnWMl93aKCwQ" elementId="org.osate.aadl2.errormodel.analysis.actions.Consistency.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvy2w3EeSnWMl93aKCwQ" elementId="org.osate.aadl2.errormodel.analysis.actions.ContextTable.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvzGw3EeSnWMl93aKCwQ" elementId="org.osate.aadl2.errormodel.analysis.actions.ImplementationCompliance.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvzWw3EeSnWMl93aKCwQ" elementId="org.osate.aadl2.errormodel.analysis.actions.UnhandledFaults.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvzmw3EeSnWMl93aKCwQ" elementId="org.osate.aadl2.errormodel.analysis.actions.FaultImpact.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnvz2w3EeSnWMl93aKCwQ" elementId="org.osate.aadl2.errormodel.analysis.actions.PRISMPreferences.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv0Gw3EeSnWMl93aKCwQ" elementId="org.osate.aadl2.errormodel.analysis.actions.PRISM.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv0Ww3EeSnWMl93aKCwQ" elementId="org.osate.aadl2.errormodel.analysis.actions.FTA.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv0mw3EeSnWMl93aKCwQ" elementId="org.osate.aadl2.errormodel.analysis.actions.RBD.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv02w3EeSnWMl93aKCwQ" elementId="org.osate.aadl2.errormodel.analysis.actions.CMA.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv1Gw3EeSnWMl93aKCwQ" elementId="org.osate.aadl2.errormodel.analysis.actions.FHA.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkuW9uEeSOlLKPosvIbg" elementId="fault.toolbar"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkum9uEeSOlLKPosvIbg" elementId="org.osate.aadl2.errormodel.analysis.actions.Consistency.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKku29uEeSOlLKPosvIbg" elementId="org.osate.aadl2.errormodel.analysis.actions.ContextTable.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkvG9uEeSOlLKPosvIbg" elementId="org.osate.aadl2.errormodel.analysis.actions.ImplementationCompliance.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkvW9uEeSOlLKPosvIbg" elementId="org.osate.aadl2.errormodel.analysis.actions.UnhandledFaults.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkvm9uEeSOlLKPosvIbg" elementId="org.osate.aadl2.errormodel.analysis.actions.FaultImpact.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkv29uEeSOlLKPosvIbg" elementId="org.osate.aadl2.errormodel.analysis.actions.PRISMPreferences.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkwG9uEeSOlLKPosvIbg" elementId="org.osate.aadl2.errormodel.analysis.actions.PRISM.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkwW9uEeSOlLKPosvIbg" elementId="org.osate.aadl2.errormodel.analysis.actions.FTA.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkwm9uEeSOlLKPosvIbg" elementId="org.osate.aadl2.errormodel.analysis.actions.RBD.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkw29uEeSOlLKPosvIbg" elementId="org.osate.aadl2.errormodel.analysis.actions.CMA.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkxG9uEeSOlLKPosvIbg" elementId="org.osate.aadl2.errormodel.analysis.actions.FHA.action"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNBqDmu4EeSrYsjfcHyprg" elementId="org.osate.analysis.flows.actionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv1Ww3EeSnWMl93aKCwQ" elementId="arch.toolbar"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv1mw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.flows.actions.CheckFlowLatency.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkxW9uEeSOlLKPosvIbg" elementId="arch.toolbar"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkxm9uEeSOlLKPosvIbg" elementId="org.osate.analysis.flows.actions.CheckFlowLatency.action"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNBqEWu4EeSrYsjfcHyprg" elementId="org.osate.analysis.resource.budgets.actionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv12w3EeSnWMl93aKCwQ" elementId="arch.toolbar"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv2Gw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.resource.budgets.actions.DoBoundSwitchBandWidthAnalysis"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv2Ww3EeSnWMl93aKCwQ" elementId="org.osate.analysis.resource.budgets.actions.DoSwitchBandWidthAnalysis"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv2mw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.resource.budgets.actions.DoPowerAnalysis"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv22w3EeSnWMl93aKCwQ" elementId="org.osate.analysis.resource.budgets.actions.DoBoundResourceAnalysis"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv3Gw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.resource.budgets.actions.DoResourceBudget"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkx29uEeSOlLKPosvIbg" elementId="arch.toolbar"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkyG9uEeSOlLKPosvIbg" elementId="org.osate.analysis.resource.budgets.actions.DoBoundSwitchBandWidthAnalysis"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkyW9uEeSOlLKPosvIbg" elementId="org.osate.analysis.resource.budgets.actions.DoSwitchBandWidthAnalysis"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkym9uEeSOlLKPosvIbg" elementId="org.osate.analysis.resource.budgets.actions.DoPowerAnalysis"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKky29uEeSOlLKPosvIbg" elementId="org.osate.analysis.resource.budgets.actions.DoBoundResourceAnalysis"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkzG9uEeSOlLKPosvIbg" elementId="org.osate.analysis.resource.budgets.actions.DoResourceBudget"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNBqGGu4EeSrYsjfcHyprg" elementId="org.osate.analysis.resource.management.actionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv3Ww3EeSnWMl93aKCwQ" elementId="rsrc.toolbar"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv3mw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.resource.management.actions.Binpack.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv32w3EeSnWMl93aKCwQ" elementId="org.osate.analysis.resource.management.actions.Schedule.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv4Gw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.resource.management.actions.CheckPriorityInversion.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkzW9uEeSOlLKPosvIbg" elementId="rsrc.toolbar"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkzm9uEeSOlLKPosvIbg" elementId="org.osate.analysis.resource.management.actions.Binpack.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKkz29uEeSOlLKPosvIbg" elementId="org.osate.analysis.resource.management.actions.Schedule.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk0G9uEeSOlLKPosvIbg" elementId="org.osate.analysis.resource.management.actions.CheckPriorityInversion.action"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNBqHWu4EeSrYsjfcHyprg" elementId="org.osate.analysis.security.actionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv4Ww3EeSnWMl93aKCwQ" elementId="security.toolbar"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv4mw3EeSnWMl93aKCwQ" elementId="org.osate.analysis.security.actions.CheckSecurity.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv42w3EeSnWMl93aKCwQ" elementId="org.osate.analysis.security.actions.CheckSafety.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk0W9uEeSOlLKPosvIbg" elementId="security.toolbar"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk0m9uEeSOlLKPosvIbg" elementId="org.osate.analysis.security.actions.CheckSecurity.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk029uEeSOlLKPosvIbg" elementId="org.osate.analysis.security.actions.CheckSafety.action"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNBqIWu4EeSrYsjfcHyprg" elementId="org.osate.importer.lattix.actionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv5Gw3EeSnWMl93aKCwQ" elementId="rsrc.toolbar"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv5Ww3EeSnWMl93aKCwQ" elementId="edu.cmu.sei.vdid.dsm.actions.DoGenerateExcelReport"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv5mw3EeSnWMl93aKCwQ" elementId="edu.cmu.sei.vdid.dsm.actions.DoImportLdm"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv52w3EeSnWMl93aKCwQ" elementId="edu.cmu.sei.vdid.dsm.actions.DoGenerateDsmMatrix"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv6Gw3EeSnWMl93aKCwQ" elementId="edu.cmu.sei.vdid.dsm.actions.DoExportLdmx"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk1G9uEeSOlLKPosvIbg" elementId="rsrc.toolbar"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk1W9uEeSOlLKPosvIbg" elementId="edu.cmu.sei.vdid.dsm.actions.DoGenerateExcelReport"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk1m9uEeSOlLKPosvIbg" elementId="edu.cmu.sei.vdid.dsm.actions.DoImportLdm"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk129uEeSOlLKPosvIbg" elementId="edu.cmu.sei.vdid.dsm.actions.DoGenerateDsmMatrix"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk2G9uEeSOlLKPosvIbg" elementId="edu.cmu.sei.vdid.dsm.actions.DoExportLdmx"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNBqJ2u4EeSrYsjfcHyprg" elementId="org.osate.importer.scade.actionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv6Ww3EeSnWMl93aKCwQ" elementId="rsrc.toolbar"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv6mw3EeSnWMl93aKCwQ" elementId="org.osate.actions.DoImportScade"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk2W9uEeSOlLKPosvIbg" elementId="rsrc.toolbar"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk2m9uEeSOlLKPosvIbg" elementId="org.osate.actions.DoImportScade"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNBqKmu4EeSrYsjfcHyprg" elementId="org.osate.importer.simulink.actionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv62w3EeSnWMl93aKCwQ" elementId="rsrc.toolbar"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv7Gw3EeSnWMl93aKCwQ" elementId="org.osate.actions.DoImportSimulink"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk229uEeSOlLKPosvIbg" elementId="rsrc.toolbar"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk3G9uEeSOlLKPosvIbg" elementId="org.osate.actions.DoImportSimulink"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNBqLWu4EeSrYsjfcHyprg" elementId="org.osate.reporter.actionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv7Ww3EeSnWMl93aKCwQ" elementId="general.grp"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv7mw3EeSnWMl93aKCwQ" elementId="org.osate.ui.actions.Reporter.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk3W9uEeSOlLKPosvIbg" elementId="general.grp"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk3m9uEeSOlLKPosvIbg" elementId="org.osate.ui.actions.Reporter.action"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNBqMGu4EeSrYsjfcHyprg" elementId="org.osate.ui.actionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv72w3EeSnWMl93aKCwQ" elementId="instance.grp"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv8Gw3EeSnWMl93aKCwQ" elementId="org.osate.ui.actions.ReinstantiateAllAadl.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv8Ww3EeSnWMl93aKCwQ" elementId="selfDebug.grp"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv8mw3EeSnWMl93aKCwQ" elementId="org.osate.ui.actions.ClearHistory.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv82w3EeSnWMl93aKCwQ" elementId="general.grp"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv9Gw3EeSnWMl93aKCwQ" elementId="org.osate.ui.actions.ResetMarkers.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk329uEeSOlLKPosvIbg" elementId="instance.grp"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk4G9uEeSOlLKPosvIbg" elementId="org.osate.ui.actions.ReinstantiateAllAadl.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk4W9uEeSOlLKPosvIbg" elementId="selfDebug.grp"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk4m9uEeSOlLKPosvIbg" elementId="org.osate.ui.actions.ClearHistory.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk429uEeSOlLKPosvIbg" elementId="general.grp"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk5G9uEeSOlLKPosvIbg" elementId="org.osate.ui.actions.ResetMarkers.action"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNBqN2u4EeSrYsjfcHyprg" elementId="org.osate.wizards.actionSet">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv9Ww3EeSnWMl93aKCwQ" elementId="project.grp"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv9mw3EeSnWMl93aKCwQ" elementId="org.osate.wizards.AadlProjectWizard.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv92w3EeSnWMl93aKCwQ" elementId="model.grp"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv-Gw3EeSnWMl93aKCwQ" elementId="org.osate.wizards.PropertySetWizard.action"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv-Ww3EeSnWMl93aKCwQ" elementId="org.osate.wizards.PackageWizard.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk5W9uEeSOlLKPosvIbg" elementId="project.grp"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk5m9uEeSOlLKPosvIbg" elementId="org.osate.wizards.AadlProjectWizard.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk529uEeSOlLKPosvIbg" elementId="model.grp"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk6G9uEeSOlLKPosvIbg" elementId="org.osate.wizards.PropertySetWizard.action"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk6W9uEeSOlLKPosvIbg" elementId="org.osate.wizards.PackageWizard.action"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNBqPWu4EeSrYsjfcHyprg" elementId="group.nav" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -455,15 +467,15 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNBqP2u4EeSrYsjfcHyprg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xkPKFmw3EeSnWMl93aKCwQ" elementId="history.group"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xkPKF2w3EeSnWMl93aKCwQ" elementId="group.application" visible="false"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xkPKGGw3EeSnWMl93aKCwQ" elementId="backardHistory"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xkPKGWw3EeSnWMl93aKCwQ" elementId="forwardHistory"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xkPKGmw3EeSnWMl93aKCwQ" elementId="pin.group"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_xkPKG2w3EeSnWMl93aKCwQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.gif" tooltip="Pin Editor" enabled="false" command="_JNDfGWu4EeSrYsjfcHyprg"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv-mw3EeSnWMl93aKCwQ" elementId="org.eclipse.ui.edit.text.gotoNextAnnotation"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv-2w3EeSnWMl93aKCwQ" elementId="org.eclipse.ui.edit.text.gotoPreviousAnnotation"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xmnv_Gw3EeSnWMl93aKCwQ" elementId="org.eclipse.ui.edit.text.gotoLastEditPosition"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_V_X07W9uEeSOlLKPosvIbg" elementId="history.group"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_V_X07m9uEeSOlLKPosvIbg" elementId="group.application" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_V_X0729uEeSOlLKPosvIbg" elementId="backardHistory"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_V_X08G9uEeSOlLKPosvIbg" elementId="forwardHistory"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_V_X08W9uEeSOlLKPosvIbg" elementId="pin.group"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_V_X08m9uEeSOlLKPosvIbg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.gif" tooltip="Pin Editor" enabled="false" command="_JNDfGWu4EeSrYsjfcHyprg"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk6m9uEeSOlLKPosvIbg" elementId="org.eclipse.ui.edit.text.gotoNextAnnotation"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk629uEeSOlLKPosvIbg" elementId="org.eclipse.ui.edit.text.gotoPreviousAnnotation"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_WBKk7G9uEeSOlLKPosvIbg" elementId="org.eclipse.ui.edit.text.gotoLastEditPosition"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNCPhWu4EeSrYsjfcHyprg" elementId="org.eclipse.emf.ecore.presentation.ReflectiveEditorID">
         <tags>Draggable</tags>
@@ -480,8 +492,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_JNCPp2u4EeSrYsjfcHyprg" elementId="org.eclipse.ui.workbench.help">
         <tags>Draggable</tags>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xkPKHGw3EeSnWMl93aKCwQ" elementId="group.help"/>
-        <children xsi:type="menu:OpaqueToolItem" xmi:id="_xkPKHWw3EeSnWMl93aKCwQ" elementId="group.application" visible="false"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_V_X0829uEeSOlLKPosvIbg" elementId="group.help"/>
+        <children xsi:type="menu:OpaqueToolItem" xmi:id="_V_X09G9uEeSOlLKPosvIbg" elementId="group.application" visible="false"/>
       </children>
       <children xsi:type="menu:ToolControl" xmi:id="_JNCPqmu4EeSrYsjfcHyprg" elementId="PerspectiveSpacer" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
         <tags>stretch</tags>

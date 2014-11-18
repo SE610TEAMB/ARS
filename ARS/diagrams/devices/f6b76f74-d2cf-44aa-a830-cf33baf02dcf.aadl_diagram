@@ -42,19 +42,19 @@
       <properties key="side" value="left"/>
       <properties key="is_ghost" value="false"/>
       <properties key="layout_side" value="left"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="75" height="39" y="120"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="84" height="41" y="120"/>
       <anchors xsi:type="pi:ChopboxAnchor">
         <properties key="name" value="chopbox"/>
       </anchors>
       <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.2 //@connections.3" incomingConnections="//@connections.0 //@connections.1" useAnchorLocationAsConnectionEndpoint="true">
         <properties key="name" value="innerConnector"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
-        <location x="30" y="26"/>
+        <location x="30" y="28"/>
       </anchors>
       <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
         <properties key="name" value="outerConnector"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
-        <location y="26"/>
+        <location y="28"/>
       </anchors>
       <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
         <properties key="name" value="flowSpecification"/>
@@ -63,7 +63,7 @@
       </anchors>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="name" value="feature"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="30" height="25" y="14">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" filled="false" lineVisible="false" width="30" height="25" y="16">
           <graphicsAlgorithmChildren xsi:type="al:Ellipse" lineStyle="UNSPECIFIED" width="20" height="20" y="2" style="//@styles.0/@styles.1"/>
           <graphicsAlgorithmChildren xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="10" height="25" x="20" style="//@styles.0/@styles.1"/>
         </graphicsAlgorithm>
@@ -71,7 +71,7 @@
       <children visible="true">
         <properties key="independentObject" value="feature devices::Transceiver_collect.input_output"/>
         <properties key="name" value="label"/>
-        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="70" height="14" x="5" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="input_output"/>
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="79" height="16" x="5" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="input_output"/>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
@@ -80,28 +80,28 @@
       <properties key="independentObject" value="feature devices::Transceiver_collect.vehicle_state_amc"/>
       <properties key="is_ghost" value="false"/>
       <properties key="layout_side" value="right"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="107" height="24" x="193" y="200"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="122" height="26" x="178" y="200"/>
       <anchors xsi:type="pi:ChopboxAnchor">
         <properties key="name" value="chopbox"/>
       </anchors>
       <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.0" useAnchorLocationAsConnectionEndpoint="true">
         <properties key="name" value="innerConnector"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
-        <location x="92" y="19"/>
+        <location x="107" y="21"/>
       </anchors>
       <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
         <properties key="name" value="outerConnector"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
-        <location x="107" y="19"/>
+        <location x="122" y="21"/>
       </anchors>
       <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
         <properties key="name" value="flowSpecification"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
-        <location x="42" y="19"/>
+        <location x="57" y="21"/>
       </anchors>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="name" value="feature"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="15" height="10" x="92" y="14" style="//@styles.2">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="15" height="10" x="107" y="16" style="//@styles.2">
           <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="15" height="10" style="//@styles.2">
             <points x="15"/>
             <points y="5"/>
@@ -112,7 +112,7 @@
       <children visible="true">
         <properties key="independentObject" value="feature devices::Transceiver_collect.vehicle_state_amc"/>
         <properties key="name" value="label"/>
-        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="102" height="14" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="vehicle_state_amc"/>
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="117" height="16" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="vehicle_state_amc"/>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
@@ -121,28 +121,28 @@
       <properties key="independentObject" value="feature devices::Transceiver_collect.mission_results_amc"/>
       <properties key="is_ghost" value="false"/>
       <properties key="layout_side" value="right"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="125" height="24" x="175" y="240"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="135" height="26" x="165" y="240"/>
       <anchors xsi:type="pi:ChopboxAnchor">
         <properties key="name" value="chopbox"/>
       </anchors>
       <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.1" useAnchorLocationAsConnectionEndpoint="true">
         <properties key="name" value="innerConnector"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
-        <location x="110" y="19"/>
+        <location x="120" y="21"/>
       </anchors>
       <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
         <properties key="name" value="outerConnector"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
-        <location x="125" y="19"/>
+        <location x="135" y="21"/>
       </anchors>
       <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
         <properties key="name" value="flowSpecification"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
-        <location x="60" y="19"/>
+        <location x="70" y="21"/>
       </anchors>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="name" value="feature"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="15" height="10" x="110" y="14" style="//@styles.2">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="15" height="10" x="120" y="16" style="//@styles.2">
           <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="15" height="10" style="//@styles.2">
             <points x="15"/>
             <points y="5"/>
@@ -153,7 +153,7 @@
       <children visible="true">
         <properties key="independentObject" value="feature devices::Transceiver_collect.mission_results_amc"/>
         <properties key="name" value="label"/>
-        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="120" height="14" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="mission_results_amc"/>
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="130" height="16" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="mission_results_amc"/>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
@@ -162,28 +162,28 @@
       <properties key="side" value="right"/>
       <properties key="is_ghost" value="false"/>
       <properties key="layout_side" value="right"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="108" height="24" x="192" y="150"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="122" height="26" x="178" y="150"/>
       <anchors xsi:type="pi:ChopboxAnchor">
         <properties key="name" value="chopbox"/>
       </anchors>
       <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.3" useAnchorLocationAsConnectionEndpoint="true">
         <properties key="name" value="innerConnector"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
-        <location x="93" y="19"/>
+        <location x="107" y="21"/>
       </anchors>
       <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
         <properties key="name" value="outerConnector"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
-        <location x="108" y="19"/>
+        <location x="122" y="21"/>
       </anchors>
       <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
         <properties key="name" value="flowSpecification"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
-        <location x="43" y="19"/>
+        <location x="57" y="21"/>
       </anchors>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="name" value="feature"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="15" height="10" x="93" y="14" style="//@styles.2">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="15" height="10" x="107" y="16" style="//@styles.2">
           <graphicsAlgorithmChildren xsi:type="al:Polygon" lineStyle="UNSPECIFIED" width="15" height="10" style="//@styles.2">
             <points/>
             <points x="15" y="5"/>
@@ -194,7 +194,7 @@
       <children visible="true">
         <properties key="independentObject" value="feature devices::Transceiver_collect.mission_data_amc"/>
         <properties key="name" value="label"/>
-        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="103" height="14" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="mission_data_amc"/>
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="117" height="16" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="mission_data_amc"/>
       </children>
     </children>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
@@ -203,28 +203,28 @@
       <properties key="side" value="right"/>
       <properties key="is_ghost" value="false"/>
       <properties key="layout_side" value="right"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="124" height="34" x="176" y="110"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="138" height="36" x="162" y="110"/>
       <anchors xsi:type="pi:ChopboxAnchor">
         <properties key="name" value="chopbox"/>
       </anchors>
       <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.2" useAnchorLocationAsConnectionEndpoint="true">
         <properties key="name" value="innerConnector"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
-        <location x="124" y="24"/>
+        <location x="138" y="26"/>
       </anchors>
       <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
         <properties key="name" value="outerConnector"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
-        <location x="124" y="24"/>
+        <location x="138" y="26"/>
       </anchors>
       <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
         <properties key="name" value="flowSpecification"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
-        <location x="49" y="24"/>
+        <location x="63" y="26"/>
       </anchors>
       <children xsi:type="pi:ContainerShape" visible="true" active="true">
         <properties key="name" value="feature"/>
-        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="25" height="20" x="99" y="14" style="//@styles.2">
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="25" height="20" x="113" y="16" style="//@styles.2">
           <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" width="25" height="20" style="//@styles.2">
             <points/>
             <points x="25" y="10"/>
@@ -235,7 +235,48 @@
       <children visible="true">
         <properties key="independentObject" value="feature devices::Transceiver_collect.mission_control_acm"/>
         <properties key="name" value="label"/>
-        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="119" height="14" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="mission_control_acm"/>
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="133" height="16" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="mission_control_acm"/>
+      </children>
+    </children>
+    <children xsi:type="pi:ContainerShape" visible="true" active="true">
+      <properties key="is_layed_out" value="true"/>
+      <properties key="independentObject" value="feature devices::Transceiver_collect.failure_signal"/>
+      <properties key="side" value="right"/>
+      <properties key="is_ghost" value="false"/>
+      <properties key="layout_side" value="right"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="91" height="36" x="209" y="30"/>
+      <anchors xsi:type="pi:ChopboxAnchor">
+        <properties key="name" value="chopbox"/>
+      </anchors>
+      <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
+        <properties key="name" value="innerConnector"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
+        <location x="91" y="26"/>
+      </anchors>
+      <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
+        <properties key="name" value="outerConnector"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
+        <location x="91" y="26"/>
+      </anchors>
+      <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
+        <properties key="name" value="flowSpecification"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
+        <location x="16" y="26"/>
+      </anchors>
+      <children xsi:type="pi:ContainerShape" visible="true" active="true">
+        <properties key="name" value="feature"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="25" height="20" x="66" y="16" style="//@styles.2">
+          <graphicsAlgorithmChildren xsi:type="al:Polyline" lineStyle="UNSPECIFIED" width="25" height="20" style="//@styles.2">
+            <points/>
+            <points x="25" y="10"/>
+            <points y="20"/>
+          </graphicsAlgorithmChildren>
+        </graphicsAlgorithm>
+      </children>
+      <children visible="true">
+        <properties key="independentObject" value="feature devices::Transceiver_collect.failure_signal"/>
+        <properties key="name" value="label"/>
+        <graphicsAlgorithm xsi:type="al:Text" lineStyle="UNSPECIFIED" width="86" height="16" style="//@styles.1" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="failure_signal"/>
       </children>
     </children>
   </children>
@@ -297,6 +338,7 @@
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@children.0/@anchors.1" end="//@children.0/@children.3/@anchors.1">
     <properties key="independentObject" value="flow_specification devices::Transceiver_collect.new_flow_spec4"/>
+    <properties key="is_ghost" value="false"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.3"/>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineStyle="UNSPECIFIED" style="//@styles.4">

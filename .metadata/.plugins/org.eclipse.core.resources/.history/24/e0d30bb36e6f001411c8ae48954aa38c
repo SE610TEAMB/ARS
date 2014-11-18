@@ -712,7 +712,7 @@
           <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
           <location x="45" y="21"/>
         </anchors>
-        <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.71" useAnchorLocationAsConnectionEndpoint="true">
+        <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
           <properties key="name" value="outerConnector"/>
           <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
           <location x="60" y="21"/>
@@ -2598,7 +2598,7 @@
           <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
           <location x="15" y="21"/>
         </anchors>
-        <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.71" useAnchorLocationAsConnectionEndpoint="true">
+        <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
           <properties key="name" value="outerConnector"/>
           <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0"/>
           <location y="21"/>
@@ -4703,14 +4703,6 @@
     <connectionDecorators visible="true" active="true" locationRelative="true" location="0.5">
       <properties key="independentObject" value="connection AGV_subsystems::mission_processing.impl.new_connection11"/>
       <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" x="5" y="10" style="//@styles.2" font="//@fonts.1" value="new_connection11"/>
-    </connectionDecorators>
-  </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@children.16/@children.1/@anchors.2" end="//@children.0/@children.32/@children.1/@anchors.2">
-    <properties key="independentObject" value="connection AGV_subsystems::mission_processing.impl.new_connection16"/>
-    <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.4"/>
-    <connectionDecorators visible="true" active="true" locationRelative="true" location="0.5">
-      <properties key="independentObject" value="connection AGV_subsystems::mission_processing.impl.new_connection16"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" x="5" y="10" style="//@styles.2" font="//@fonts.1" value="new_connection16"/>
     </connectionDecorators>
   </connections>
   <colors red="227" green="238" blue="249"/>
