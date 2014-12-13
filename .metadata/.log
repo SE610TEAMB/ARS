@@ -8850,3 +8850,447 @@ java.io.FileNotFoundException: C:\Users\christophe\Documents\GitHub\ARS\.metadat
 	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
 	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2014-11-19 17:20:47.606 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  --launcher.XXPermSize 128M
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 --launcher.XXPermSize 128M
+
+!ENTRY org.osate.ge 1 0 2014-11-19 17:21:07.635
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@15f2a43f (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: AGV_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2014-11-19 17:21:16.180
+!MESSAGE Contributor org.osate.ge.editor.AgeDiagramEditor cannot be created.
+
+!ENTRY org.osate.ge 1 0 2014-11-19 18:29:09.016
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram synchronously - current thread is the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-19 18:29:09.016
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@15f2a43f (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: AGV_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-19 18:29:25.840
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram asynchronously - current thread is not the display thread
+
+!ENTRY org.osate.ge 0 0 2014-11-19 18:29:43.741
+!MESSAGE org.osate.ge.ui.handlers.OpenPackageDiagramHandler.execute(): OpenPackageDiagramHandler Started
+
+!ENTRY org.osate.ge 1 0 2014-11-19 18:29:45.054
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-19 18:29:45.069
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@764b7ff7 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: AGV_subsystems, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 0 0 2014-11-19 18:29:45.304
+!MESSAGE org.osate.ge.ui.handlers.OpenPackageDiagramHandler.execute(): OpenPackageDiagramHandler Finished
+
+!ENTRY org.osate.ge 1 0 2014-11-19 18:29:49.175
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-19 18:29:49.362
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram synchronously - current thread is the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-19 18:29:49.362
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@15f2a43f (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: AGV_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-19 18:30:48.454
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram asynchronously - current thread is not the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-19 18:30:48.470
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@15f2a43f (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: AGV_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-19 18:30:48.486
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram asynchronously - current thread is not the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-19 18:31:36.231
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram synchronously - current thread is the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-19 18:31:36.231
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@15f2a43f (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: AGV_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.eclipse.ui.ide 4 4 2014-11-19 18:31:44.123
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2014-11-19 18:31:44.123
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2014-11-19 18:31:44.123
+!MESSAGE Could not write metadata for '/Plugin_Resources'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\christophe\Documents\GitHub\ARS\.metadata\.plugins\org.eclipse.core.resources\.projects\Plugin_Resources\.markers (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1600)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1680)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1142)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2014-11-19 18:31:46.686 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  --launcher.XXPermSize 128M
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 --launcher.XXPermSize 128M
+
+!ENTRY org.osate.ge 1 0 2014-11-19 18:31:56.619
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2e929182 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: AGV_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-19 18:32:18.744
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram synchronously - current thread is the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-19 18:32:18.744
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2e929182 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: AGV_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-19 18:32:34.676
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram asynchronously - current thread is not the display thread
+
+!ENTRY org.eclipse.ui.ide 4 4 2014-11-19 18:38:35.482
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2014-11-19 18:38:35.482
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2014-11-19 18:38:35.482
+!MESSAGE Could not write metadata for '/Plugin_Resources'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\christophe\Documents\GitHub\ARS\.metadata\.plugins\org.eclipse.core.resources\.projects\Plugin_Resources\.markers (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1600)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1680)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1142)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2014-11-19 19:34:31.082 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  --launcher.XXPermSize 128M
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 --launcher.XXPermSize 128M
+
+!ENTRY org.osate.ge 1 0 2014-11-19 19:35:12.211
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2b561f51 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: AGV_subsystems, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2014-11-19 19:35:13.289
+!MESSAGE Contributor org.osate.ge.editor.AgeDiagramEditor cannot be created.
+
+!ENTRY org.osate.ge 1 0 2014-11-19 19:36:05.119
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-19 19:36:05.182
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@352b5f3c (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: AGV_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-19 19:36:42.942
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-19 20:01:39.242
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@6f3679a7 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: ARR_subsystems, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-19 20:01:41.946
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-19 20:01:41.977
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@a026d6 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-19 20:01:54.387
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-19 20:01:58.337
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram synchronously - current thread is the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-19 20:01:58.337
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram synchronously - current thread is the display thread
+
+!ENTRY org.osate.ge 1 0 2014-11-19 20:01:58.337
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@a026d6 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: ARR_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.eclipse.jface 2 0 2014-11-19 20:02:01.290
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-11-19 20:02:01.290
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.graphiti.ui.internal.action.SaveImageAction,Export Diagram,
+		Export Diagram,
+		Category(org.eclipse.graphiti.ui.Graphiti_Category,Edit,Graphiti Diagram Editor,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@47de9821,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.graphiti.ui.diagramEditor,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.xtext.ui.editor.outline.QuickOutline,Quick Outline,
+		Open the quick outline.,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@26938022,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.XtextEditorScope,,,system)
+
+!ENTRY org.eclipse.core.resources 4 568 2014-11-19 21:28:14.973
+!MESSAGE Could not write metadata for '/Plugin_Resources'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\christophe\Documents\GitHub\ARS\.metadata\.plugins\org.eclipse.core.resources\.projects\Plugin_Resources\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.ui.ide 4 4 2014-11-20 00:13:15.178
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2014-11-20 00:13:15.178
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2014-11-20 00:13:15.178
+!MESSAGE Could not write metadata for '/Plugin_Resources'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\christophe\Documents\GitHub\ARS\.metadata\.plugins\org.eclipse.core.resources\.projects\Plugin_Resources\.markers (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1600)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1680)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1142)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2014-11-22 19:04:04.944 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  --launcher.XXPermSize 128M
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 --launcher.XXPermSize 128M
+
+!ENTRY org.osate.ge 1 0 2014-11-22 19:25:42.956
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@5ac53209 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: complete, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2014-11-22 19:25:44.034
+!MESSAGE Contributor org.osate.ge.editor.AgeDiagramEditor cannot be created.
+
+!ENTRY org.osate.ge 1 0 2014-11-22 19:25:47.205
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-22 19:25:47.236
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@36d02719 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: complete::complete.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-22 19:25:53.749
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-22 19:25:53.780
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@4054e55b (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: systems::ARS.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-22 19:25:59.664
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-22 19:25:59.695
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@4ec82627 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: systems::AGVs.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-22 19:26:30.670
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-22 19:26:30.670
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@7e6e5d94 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: devices::Transceiver_collect.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.eclipse.core.resources 4 568 2014-11-22 19:33:06.778
+!MESSAGE Could not write metadata for '/Plugin_Resources'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\christophe\Documents\GitHub\ARS\.metadata\.plugins\org.eclipse.core.resources\.projects\Plugin_Resources\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.osate.ge 0 0 2014-11-22 20:56:00.719
+!MESSAGE org.osate.ge.ui.handlers.OpenPackageDiagramHandler.execute(): OpenPackageDiagramHandler Started
+
+!ENTRY org.osate.ge 1 0 2014-11-22 20:56:01.327
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-22 20:56:01.348
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@340ba2b4 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: devices, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 0 0 2014-11-22 20:56:01.827
+!MESSAGE org.osate.ge.ui.handlers.OpenPackageDiagramHandler.execute(): OpenPackageDiagramHandler Finished
+
+!ENTRY org.osate.ge 1 0 2014-11-22 20:56:29.113
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-22 20:56:32.555
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-22 20:56:51.284
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-22 20:56:51.305
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@26ae01e2 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: systems::ARRs_Ground.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.eclipse.core.resources 4 568 2014-11-22 21:01:46.027
+!MESSAGE Could not write metadata for '/Plugin_Resources'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\christophe\Documents\GitHub\ARS\.metadata\.plugins\org.eclipse.core.resources\.projects\Plugin_Resources\.markers.snap (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1709)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1792)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1167)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1109)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.osate.ge 1 0 2014-11-23 02:56:58.722
+!MESSAGE org.osate.ge.ui.editor.AgeDiagramBehavior.update(): Updating diagram synchronously - current thread is the display thread
+
+!ENTRY org.eclipse.ui.ide 4 4 2014-11-23 02:57:08.378
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2014-11-23 02:57:08.379
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2014-11-23 02:57:08.379
+!MESSAGE Could not write metadata for '/Plugin_Resources'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\christophe\Documents\GitHub\ARS\.metadata\.plugins\org.eclipse.core.resources\.projects\Plugin_Resources\.markers (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1600)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1680)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1142)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2014-11-29 15:45:11.972 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  --launcher.XXPermSize 128M
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 --launcher.XXPermSize 128M
+
+!ENTRY org.osate.ge 1 0 2014-11-29 15:45:24.605
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@2830315f (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: systems::ARS.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2014-11-29 15:45:26.974
+!MESSAGE Contributor org.osate.ge.editor.AgeDiagramEditor cannot be created.
+
+!ENTRY org.eclipse.ui.ide 4 4 2014-11-29 15:56:02.880
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2014-11-29 15:56:02.880
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2014-11-29 15:56:02.880
+!MESSAGE Could not write metadata for '/Plugin_Resources'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\christophe\Documents\GitHub\ARS\.metadata\.plugins\org.eclipse.core.resources\.projects\Plugin_Resources\.markers (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1600)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1680)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1142)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2014-11-30 21:19:34.412 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  --launcher.XXPermSize 128M
+Command-line arguments:  -data C:\Users\christophe\Documents\GitHub\ARS -os win32 -ws win32 -arch x86_64 --launcher.XXPermSize 128M
+
+!ENTRY org.osate.ge 1 0 2014-11-30 21:19:43.792
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@25fd6d1e (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: systems::ARS.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-30 21:20:33.630
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@28e24663 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: processes_ARR_AGV, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2014-11-30 21:20:34.894
+!MESSAGE Contributor org.osate.ge.editor.AgeDiagramEditor cannot be created.
+
+!ENTRY org.osate.ge 1 0 2014-11-30 21:20:45.905
+!MESSAGE org.osate.ge.diagrams.pkg.features.PackageUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@1f3dafd4 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Package, name: AGV_subsystems, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.osate.ge 1 0 2014-11-30 21:20:51.933
+!MESSAGE org.osate.ge.services.impl.DefaultDiagramService.openOrCreateDiagramForRootBusinessObject(): Existing diagram found. Opening...
+
+!ENTRY org.osate.ge 1 0 2014-11-30 21:20:51.983
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@e0865e7 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: AGV_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.eclipse.ui.ide 4 4 2014-11-30 21:22:11.441
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2014-11-30 21:22:11.442
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2014-11-30 21:22:11.442
+!MESSAGE Could not write metadata for '/Plugin_Resources'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\christophe\Documents\GitHub\ARS\.metadata\.plugins\org.eclipse.core.resources\.projects\Plugin_Resources\.markers (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1600)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1680)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1142)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2014-12-01 21:58:11.491 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  --launcher.XXPermSize 128M
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 --launcher.XXPermSize 128M
+
+!ENTRY org.osate.ge 1 0 2014-12-01 21:58:40.845
+!MESSAGE org.osate.ge.diagrams.componentImplementation.features.ComponentImplementationUpdateDiagramFeature.update(): called with context: UpdateContext pictogramElement: org.eclipse.graphiti.mm.pictograms.impl.DiagramImpl@7afb9c93 (visible: true, active: false) (gridUnit: 10, diagramTypeId: AADL Component Implementation, name: AGV_subsystems::mission_processing.impl, snapToGrid: true, showGuides: false, verticalGridUnit: -1, version: 0.10.0)
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2014-12-01 21:58:48.874
+!MESSAGE Contributor org.osate.ge.editor.AgeDiagramEditor cannot be created.
+
+!ENTRY org.eclipse.ui.ide 4 4 2014-12-01 22:00:40.152
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2014-12-01 22:00:40.153
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2014-12-01 22:00:40.153
+!MESSAGE Could not write metadata for '/Plugin_Resources'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\christophe\Documents\GitHub\ARS\.metadata\.plugins\org.eclipse.core.resources\.projects\Plugin_Resources\.markers (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1600)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1680)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1142)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2376)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)

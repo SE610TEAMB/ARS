@@ -4707,7 +4707,6 @@
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@children.16/@children.1/@anchors.2" end="//@children.0/@children.32/@children.1/@anchors.2">
     <properties key="independentObject" value="connection AGV_subsystems::mission_processing.impl.new_connection16"/>
-    <properties key="is_ghost" value="false"/>
     <graphicsAlgorithm xsi:type="al:Polyline" lineStyle="UNSPECIFIED" style="//@styles.4"/>
     <connectionDecorators visible="true" active="true" locationRelative="true" location="0.5">
       <properties key="independentObject" value="connection AGV_subsystems::mission_processing.impl.new_connection16"/>
